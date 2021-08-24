@@ -1,4 +1,7 @@
-* MD Front End
+Unofficial front end for Mangadex. This project aims to provide a simpler
+Mangadex interface with better access for chapters. Development is currently in
+the planning stage.
+* Brainstorm
 ** First test
 - [X] register with a MD home server
 - [ ] access token
