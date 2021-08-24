@@ -1,0 +1,797 @@
+{
+    "results": [
+        {
+            "result": "ok",
+            "data": {
+                "id": "90207714-3d03-4f1b-b9cd-0b0c088d7369",
+                "type": "chapter",
+                "attributes": {
+                    "volume": "2",
+                    "chapter": "6",
+                    "title": "Open the door",
+                    "translatedLanguage": "en",
+                    "hash": "a4741e1913dd7007a77cf53da281fc59",
+                    "data": [
+                        "1-0e0f604924a104a7d02654ed680546487f685712ba4a286c4f1d5c879cf159fa.jpg",
+                        "2-676feb9b9a0da874930c4c0e1297daae25f626d57f14f5aab4cf088f3ba2697f.jpg",
+                        "3-cc0f560076a7dbcbe5dbbf7d0d487ff18591035edf3d212d7fa779d7db2b3a5e.jpg",
+                        "4-623284e0f87d54027de7f32e4379a18345ec3060fdcf739b3ebc8ece7466614d.jpg",
+                        "5-7a4cc6a1ec770f3ab6a18387133187d555ecbb9343a9a38ae07d8f91fde5dc34.jpg",
+                        "6-abcdfe03692576d64ef366975122281c9aaa07e3ccd3aca4ce56c241e23f36e8.jpg",
+                        "7-41c287f313f6698fd99a21363d05407ad3acb709289ef24dbd94b112fda1182e.jpg",
+                        "8-be1068d30a7c2d056370de2944939e52a3f34416bcecbd98a1128bf9319e5c89.jpg",
+                        "9-851ac821272ab9384138110a7b1f5358b05ae57cf83858b03d78805f1adc92c4.jpg",
+                        "10-04ebecf7bc5f0f07e42f70af5ad59c08e749ad964ab0f382bb513641e8c5176f.jpg",
+                        "11-b0faedec771bb6c781659c72df0f114ea57569e5fea2a2e94ca14c2e0fab7d5a.jpg",
+                        "12-66965b31a03c897df92505a480d99e0d94401468ad40724a11ed5bd4263ecf7a.jpg",
+                        "13-569f1bc579371cb6c10ceba570dbc0777216d26d035b4c35ae4e20f12bc1bdd3.jpg",
+                        "14-60e481744c40aa0a1bf75293ecd8a1960aa7cb51f7e5f7b71b92599cbf6df48b.jpg",
+                        "15-26ac30bca981f55108d4181380316c63018242a6260aaf6887edb45f669317c8.jpg",
+                        "16-23f06e41b2dc9d13941a171248bbc1ac502f067b2cc030f98efd0976989f0867.jpg",
+                        "17-9a7acaf93612f4a1f7839931c3b8c22d1cf17a7b05f490581bc1d6d95b7f74f3.jpg",
+                        "18-d4b38c1b89c74039eb0db3d49689b7b30e477c8a7414a0449123d178fe0b84fd.jpg",
+                        "19-a5bd06538699353189a48976ab6c941e0eb77c1bfab50be91a62ce71afdc5416.jpg",
+                        "20-3d5d3ba0c18166321af88fcbbe11a778e1ac6292c2687980219d42ca279d3fca.jpg"
+                    ],
+                    "dataSaver": [
+                        "1-f690ad14581925a0ec792511f8bf282e890b777cc81e76343079cee3d449cc94.jpg",
+                        "2-c7fbc11aa1efe95aedd3b41c034e49d9f79961ab41113aa345821fefdf10f3e6.jpg",
+                        "3-a1028f8a8e0f051c80ff02d2407719dcce0cdbdc8ce9038468c828547b990eb1.jpg",
+                        "4-fa2441d2019a632a9caa7b2756f6fb76ef41a03f9d3d1d6a0d9008394d8cd1ba.jpg",
+                        "5-b1d8b2425155a9ae26e5a3f53c514df7881135f64aa16c0fac2a95c7b2091754.jpg",
+                        "6-6e05622df5a6ff322a55bbb3b1651dca19fda279a3543b607210e449c2ab9314.jpg",
+                        "7-aca8be8834d018f14d2ab5e860076920d66fada0cfd9b65d734aa489aedd2019.jpg",
+                        "8-e9e53df9c00bf524632e736f7737cc16381dcfda500f4beb11be267f45049696.jpg",
+                        "9-054c397fc0cc0dd9e9002e16ea07a503c9b7bca04c27eff658481443a5ccd043.jpg",
+                        "10-cce4815718999bdeb1854b18df4ce08492b5dab8930192ba06b6cebbfb72560c.jpg",
+                        "11-9a244e2f029aed153f1ecab8b60b00295522f3a77052737aa7f8bf3a21f0722c.jpg",
+                        "12-f5260a0fc877f61b5cab412943222b24f4a485d36b5e0ccc21b58e945eaddd98.jpg",
+                        "13-dc704e798893ef6f554ef9f0011652c496807fe002ab42954fad9aa1b242e654.jpg",
+                        "14-5e352206db222b9f75715fa75d3e48e5aed6e903591303f2056735f66a2d68eb.jpg",
+                        "15-a02f4b134e18bd830904d3c17d0b0a492f8fb498fa352d31287bdab6c5000968.jpg",
+                        "16-65035ecae01b16f48c335c2d0f32cf80c2c08e8a80d226149df657c832332bb7.jpg",
+                        "17-974e23f5e6908b2e976b90736b69de18875b6ae0429ea4ff299e1359ceb35f6b.jpg",
+                        "18-9871ea55e65d1e5cbac0684d7b16f01537af2b33e996191b41eabccbff51f567.jpg",
+                        "19-c2f69336c0078ad2087581cbbfb17fb54bd326cb9e1eefde7d907f25f8c1defd.jpg",
+                        "20-81bd33d87df7b17bfc429d095c07ffa867aaf219606c30528a07e50fa34a0b7c.jpg"
+                    ],
+                    "publishAt": "2018-01-20T07:44:00+00:00",
+                    "createdAt": "2018-01-20T07:44:00+00:00",
+                    "updatedAt": "2018-01-20T07:44:00+00:00",
+                    "version": 1
+                }
+            },
+            "relationships": [
+                {
+                    "id": "24adf288-d0e3-4d34-b342-bf8c189aacaa",
+                    "type": "scanlation_group"
+                },
+                {
+                    "id": "a2febd3e-6252-46eb-bd63-01d51deaaec5",
+                    "type": "manga"
+                },
+                {
+                    "id": "5a522f9e-317f-40e9-8cf5-603b0e209731",
+                    "type": "user"
+                }
+            ]
+        },
+        {
+            "result": "ok",
+            "data": {
+                "id": "6d853dc8-ad0e-4749-a2f4-e87d447e1dad",
+                "type": "chapter",
+                "attributes": {
+                    "volume": "2",
+                    "chapter": "7",
+                    "title": "Today is Holiday ①",
+                    "translatedLanguage": "en",
+                    "hash": "1b866d56321b498e37ea2f2b6ec40180",
+                    "data": [
+                        "1-79e64fe13192803790a775880a536f395373547ebd18116cb84e3f290286da33.jpg",
+                        "2-b43889bb25b12649911c45b20ac7aea46b54f6ed34989266e3dfb5586150d330.jpg",
+                        "3-b637fba1d059e48bb0f5ce716a6321982fc4cc25518feac945e408df21c114d8.jpg",
+                        "4-80e5ba84b72dc5018ceaddda1f0f120f711923ab91d5c40f01aba268cad34b7e.jpg",
+                        "5-24e7b6e3ae536be74ff9fb9949f81b1eb8a4abe7f5c3270ff45a84ba5e7b8ee4.jpg",
+                        "6-84a9f6a4bed3d63c008796b144a6bd8afab6dfeaceb6179b3d2c56e427b53886.jpg",
+                        "7-11e395460ded131d1781f46c2dec4999864570b8b98defa6d8ebb32001a2c5a3.jpg",
+                        "8-086f34227b6d0890ade4e63cc4d2f01cb09785e768575523e4dbbf00e18973c8.jpg",
+                        "9-082260c7021f2e44ee3638b757f71f1d276e54a801ad8038f971fd7895dae32d.jpg",
+                        "10-3f40b5d1201fff81c297c7eb8cda6bf908fbe09cf9fe26fbce318ca415df85dc.jpg",
+                        "11-375122f19b8c7b03e980dd11ab4e9c62e15820f72e9243e7fde3c89152cf0b68.jpg",
+                        "12-e1c21972a784eaa70179dbc7596c535d51fafa7485a87670dad9e16140651d31.jpg",
+                        "13-8bcc1549032072afa4d8ca5f8c623f94a805adf193774111512e833a7da85691.jpg",
+                        "14-49787dfee2433071874d78d03a13fe503ce6d22fd3216f5c930d4aad49530276.jpg",
+                        "15-a92cabe717addd8e657b912bbfa2e4dec33caeec3bb1182e4559b6b19a37d04e.jpg",
+                        "16-2aba06e40dcb22f34ae48ad3ed84d2b5b74aeb55e1ab8d4bd409b88d3018d1b4.jpg",
+                        "17-dba4e1a3da913d2d186bc8a14d0a16470e68f85ff475f49e5166c028f62a0840.jpg",
+                        "18-55c2bef1224307fc9d2b41c7ddc0b11a6f4f1f8e8d8511dcf6fd4ba754e496b3.jpg",
+                        "19-c639a9a0ac3d82fc97f4f5b771295bf678ee1ec476b441cedf2b3f6fe4cf19b8.jpg",
+                        "20-096929de3cce352383396900cb5b6b20304ea0d8d7ab1cf13905c0ba0d5030a3.jpg",
+                        "21-e1288cd8455ba854699a62363af349435640eb98b31f5a43de4bfb7613717140.jpg",
+                        "22-e537d82f184a22dcea51901e3e8ecac0615d1986ad60e65e44d412cacfac5fc9.jpg",
+                        "23-cbbb400c6cb6796ead32517987cec766b3bfe2ebfeea1828cd8467ec471d51c0.jpg",
+                        "24-dba21efd5e5552b15c189b93cf3570b2680f3eb8ecef7adbbb03bf3d8a4ce105.jpg",
+                        "25-3a21573b960a4489daf4aec2c5f81563bb896c82c9fb713ecb52911c02b1a4e6.jpg"
+                    ],
+                    "dataSaver": [
+                        "1-e0ab1d3cba0aee1c46b16f32a601082fe627d1c7afbef0183c9c1886f2ed88e0.jpg",
+                        "2-68e0d1144becf0676593f6a43c80d679ba0490b7e7829acd81de29315e28f960.jpg",
+                        "3-ef0a69b3006e4d949a827d39e663e49fb1ac48ce9e627abce1b30c5597efef60.jpg",
+                        "4-f9f77b069fe78260580f40ea1ad46706f3466bde301be9e3c1179b0ebb7c3eba.jpg",
+                        "5-8db7cbac8531f6304791a686383ffdd1aff484dbe047360249dce5661214aadb.jpg",
+                        "6-fcfda5fd4d85101fc4ba43bbca98baf9a2a8db05b682625fe1e7726f08ace14c.jpg",
+                        "7-d4c61502a12fc07cfaeec9588c94ec0e0c8d461d65e561593b097841d498a002.jpg",
+                        "8-5d52bcd50ce0cc5635a219c2bd601e7797996f8eaafac5a9eb46eba841d5a136.jpg",
+                        "9-1edb1fe16336970f79b469900b22d9fe4614a0e7debdf601363d30ed6883aa0c.jpg",
+                        "10-ecf4b6e29d9f3b53be77b8de26cfc3e2f25a4e026f552118f6fed49b3e43d38b.jpg",
+                        "11-07011b4e7975d202876a278b3472078fc507b5560c662f3d2ba11b8ab30a7528.jpg",
+                        "12-b9f69142e9c14d2246bd234bcef4df4084f07d2150f033d41f021f2bed58c8f6.jpg",
+                        "13-817d8e374935534b2793dc76938c549bd9746608b598541403a9f00b065c65a7.jpg",
+                        "14-060102214408e3cdab4eedcb7814f3ded365b407470477a20e0470b363e5bfc3.jpg",
+                        "15-6710b1483f33b7fc723c6a1bc47c16370f110c3c4f8c143a35b3a63f45f835c1.jpg",
+                        "16-7e86929d27ec05dedab4d3af8effff83e789c6001cda628a32225b2b89ab9e07.jpg",
+                        "17-9c33ab6889cc4c2a5b6186655cdc7130d3e01f40e0d8879f79a3e8b08ac7db8c.jpg",
+                        "18-1f315474ee15b2cb9916324440dc59089d7926bf7e0f8704e78a4b99593519ff.jpg",
+                        "19-e59365f1124339e88aee1a4bc27dda9277c7e37f181c21f484bb2c3d2c98e11b.jpg",
+                        "20-387f46df072386835e26f0a73d66b4d4c42303465942dae882ee2aa462f6eb11.jpg",
+                        "21-a3f176a0d811882233d3912a1a11f151b7a999b204cda454542d18615691d74f.jpg",
+                        "22-5fddd5be41414ea4865a1af3b3c5b21adb80a199d176f7e5970171cff750ccef.jpg",
+                        "23-801b058fe7d3692506668efd5d7e13b1be0d10f54c100390340c7fab7f9c8889.jpg",
+                        "24-b47fa81890f0b16009f20d406277b234ea3dc0849a5d1979e2018db732097a0d.jpg",
+                        "25-c7f67e66f9836aeb62a98a76abee15d807e8b720c545761fd03aac69dc16e3b7.jpg"
+                    ],
+                    "publishAt": "2018-01-20T07:50:04+00:00",
+                    "createdAt": "2018-01-20T07:50:04+00:00",
+                    "updatedAt": "2018-01-20T07:50:04+00:00",
+                    "version": 1
+                }
+            },
+            "relationships": [
+                {
+                    "id": "24adf288-d0e3-4d34-b342-bf8c189aacaa",
+                    "type": "scanlation_group"
+                },
+                {
+                    "id": "a2febd3e-6252-46eb-bd63-01d51deaaec5",
+                    "type": "manga"
+                },
+                {
+                    "id": "5a522f9e-317f-40e9-8cf5-603b0e209731",
+                    "type": "user"
+                }
+            ]
+        },
+        {
+            "result": "ok",
+            "data": {
+                "id": "1fc51b58-0fcb-4458-8f51-30f9906689f9",
+                "type": "chapter",
+                "attributes": {
+                    "volume": "2",
+                    "chapter": "8",
+                    "title": "Today is Holiday ②",
+                    "translatedLanguage": "en",
+                    "hash": "db9c44411b5a55edf2fd21b1b47b177b",
+                    "data": [
+                        "1-39715737c1a0668026908a40f497014adcc4b8a8250fea5811917b3ef4c220b0.jpg",
+                        "2-5ee1844fe869d2c85975f3e201199c5f954865e4a3336fb0fdf57564e986ee61.jpg",
+                        "3-abcbc1e4ced2be8d5571a2370120dd0e28a473677330f61da51c1cfa171f0c6e.jpg",
+                        "4-0d98a2329dc6e2ac84299577def0e82a0dfc4d6818566b8a88d4b7e7c70efa7b.jpg",
+                        "5-a3cf907bb8a1035936d576a322d8c1e44069c384715d3ea0db0efa715b5d6edc.jpg",
+                        "6-efd2906170057286b7bb6985782dd6c371ff5f7dfb4b33ff0f7522154ab4f8b0.jpg",
+                        "7-fb1cc1a4cf076470351df418702edbda991f9bec1d2eb348e7c6618298be9c73.jpg",
+                        "8-02096fa0f95ec60691c7cdc607c7e5c20accef17d21a95f944a4fd69354c3847.jpg",
+                        "9-4c9b7a32e40f19a238bbdd7e60451aefeda307d434594c197a8f0b739138d287.jpg",
+                        "10-eb005197cbadf8a38e67ca8703e1a8b306495e2e5dc71df5e1393fbe43751610.jpg",
+                        "11-5960a467ad42cdcd9a0ef88da6e7bfe1ceb977b13cd1c56bb5ba7436ece468b2.jpg",
+                        "12-d111990cd173f6463a72c39d75887678151ec329b900d4275e84b57b6162d591.jpg",
+                        "13-c04ac91c0a8949dda9e043c1ddb67734498c03332b11265b31c15d3ab324f9d3.jpg",
+                        "14-c641b36ac4c0dface3c22fba7e282fb48e31b3d9db7109fe7634c095b09ea57a.jpg",
+                        "15-2ae0c05d16327b1e9f33b45df6ca072e1b68726fe26c8bc2d333762500bc91a3.jpg",
+                        "16-35146b4ab55076835d36af4d8b5ab4c8ab8be1c3bfd2fc0d2759a7a3619244ff.jpg",
+                        "17-c57ef5e888312e61ed267583e0524d3a4eb5f0f74e7b27466a1166397b0ad36d.jpg",
+                        "18-61f1271f701aa260253797c58e646c61421480b8036568027334ccfc02406608.jpg",
+                        "19-97d0b258249b554558e19e048aa5249cbaf87824306fcc9c32248cfda31539d6.jpg",
+                        "20-4cd9511b050dff13ef193097c6a7ef337035ef3617643a608d419dde6bb26003.jpg",
+                        "21-168824f2090674bcf9545fa206b90ac1d272bb6500ebaf9e659f99722b40062e.jpg"
+                    ],
+                    "dataSaver": [
+                        "1-bb613e63473ce044eb2a23b85576dec56165266fa5b572e5de8a5c016e85f599.jpg",
+                        "2-f10342ee3959c71752c5d3339cdac14ef14bd577ff0d81206465a7b320d3a5c7.jpg",
+                        "3-9c48c4c360521728879d9bf1be4f021942b892ddaa91407bf23acf366c5c9338.jpg",
+                        "4-727a5773c9a21d980251640e5a29495b86fe44d69b616c35164e074cc2791a8d.jpg",
+                        "5-62c3204555a541bcb6250a70cbab5cd70e34ef8747fc5413426838fed338faff.jpg",
+                        "6-b448cfe38e5d0033b72415f4f1fccff6dff577677457adc752f6e7a9003b7cb1.jpg",
+                        "7-072fa20b6d09b8c9257fa7566ecb4246bacc8526beb421000cf07951dc2f1d93.jpg",
+                        "8-58c55953ae1edca42c63430b66b9593ed4dfb81184d2e62cf66cc031e519eea8.jpg",
+                        "9-7e3fef09f56f78083678be61f894d3d6991de3f4e6111c30947430c98ea62546.jpg",
+                        "10-5044bd5ee6272e48a7e70c4068115c6f43876d81e3cf705f52486f0ebe81fa6c.jpg",
+                        "11-0f0b05c000b74733674f1789a5a90498aefff3649f4717a79261529c0bb4a439.jpg",
+                        "12-c6a8698114b853dd3aec98b942e6a87d8f3ca982b10a0244feb4f03cf3c3bbed.jpg",
+                        "13-cd24ffdaf1c0881473eed18b267295a1b604e35d4ec9c017e8d1561a6bdb9cb2.jpg",
+                        "14-a19c5ebc2d47c285b7e481e0a41b2672d9885ffbd30e56ae39fd83e684e8955d.jpg",
+                        "15-ff68cb9bf0056fc6e3b4e7548a72b0c4816a0e7f3236aa767582f669e9adf5dc.jpg",
+                        "16-7350a86480365aadf33aa232e382f64eb2209e85beac80940dc28f4ab60230d7.jpg",
+                        "17-8dcec6f9ddd9083862885c0dc4a0f5d0ab363ffe77e04c68c0c7f0e015adc308.jpg",
+                        "18-229e54606038e2d0750e95b91fd279efd8dd0c58ba8ac95820544705466281e7.jpg",
+                        "19-93a672955cb6892556b77a6bd753beb6a4033855b1113d414c1c71c7d73966f9.jpg",
+                        "20-0da1b0a857d9b696d38ae8f0c72f86792fa27b105a70ca6bcc4dba015de15a5b.jpg",
+                        "21-593f9773a4606d8d645b2a89f52682cab7108fde63b1e3ecd9dc44cd1ac2bb82.jpg"
+                    ],
+                    "publishAt": "2018-01-20T16:23:09+00:00",
+                    "createdAt": "2018-01-20T16:23:09+00:00",
+                    "updatedAt": "2018-01-20T16:23:09+00:00",
+                    "version": 1
+                }
+            },
+            "relationships": [
+                {
+                    "id": "24adf288-d0e3-4d34-b342-bf8c189aacaa",
+                    "type": "scanlation_group"
+                },
+                {
+                    "id": "a2febd3e-6252-46eb-bd63-01d51deaaec5",
+                    "type": "manga"
+                },
+                {
+                    "id": "5a522f9e-317f-40e9-8cf5-603b0e209731",
+                    "type": "user"
+                }
+            ]
+        },
+        {
+            "result": "ok",
+            "data": {
+                "id": "31047435-01e1-473b-b737-4581aaa22bf1",
+                "type": "chapter",
+                "attributes": {
+                    "volume": "2",
+                    "chapter": "9",
+                    "title": "Today is Holiday ③",
+                    "translatedLanguage": "en",
+                    "hash": "4f1c656e16c5bd9d531a585042085ae3",
+                    "data": [
+                        "1-211303bb4906c08701dde0582b116c99d9780ca5d676829ecf4c4dac5fd8bb02.jpg",
+                        "2-2cdff8b1115872d0d9d47231cdd14cda4396fd9fff8bfcbf9587383f6aab3255.jpg",
+                        "3-b8c592f88721582058b394c4bab6de01a9ea2472f7d0b4c5599d5d6fa256eb70.jpg",
+                        "4-8e360557ee2518de6cc4134e33c4976260c6cfde5e0ec392bff7b287090e1daa.jpg",
+                        "5-5b58b74dd564fc05c274c6f32ccce1099abf6d6e8c93f7ba7e52c73b17260915.jpg",
+                        "6-b05c5376d2df72c98f1289e96c8078e933ec23b3988adf0e6e151f6552500f0c.jpg",
+                        "7-1112cc4fc816aa4e707d1217e72122c41be089803e1eddb12964a8a5a74c9c87.jpg",
+                        "8-04cf47b90fb427b8576c0bedf8a7f54cdd8c1005e689eb126606893c5847adb6.jpg",
+                        "9-1d536468f4af6b983fb338ebf5126911752755806a88d665f1a1d9db4ef442a0.jpg",
+                        "10-446a4b531908d1b11b8aa524c1224d02c15a3757a2dd3a828e339a40553ab1d5.jpg",
+                        "11-4ca686c2940aac3ccab88a2f2eee3e1ee93a2a6b3c40db6566e938f73d930b43.jpg",
+                        "12-aa15619204b9e870752287b90c26e33bf93d7aabb662ec3f07b4ac4270dd0bd7.jpg",
+                        "13-3d6d845e4131f0ca68b1f9eae9af7932907fb7109d76a51125715e1cc2936d0a.jpg",
+                        "14-c30de53632e92e5dabd83a0b3743629a4e2875448c403e77405ed89be7c4a804.jpg",
+                        "15-1e75d64882af13f26509bba1d49ad1e25c7f049728c77cad9bb183c2873b478b.jpg",
+                        "16-72aad651f471174bc92e21d9b965d1767f9e40710c1dd646f0f879877e2582c5.jpg",
+                        "17-acbc580210a8f2515f27dafdb9b23113bd1f2eefa67e41728b482e48c8b2ab1d.jpg",
+                        "18-59541dd48e1577de337217561c1b5c2ea61e8a2883e54e2d3c6730d9f315d1fd.jpg",
+                        "19-10a016a7f39696be1c951e83d3e7632f4e2c58a119afdcd9aeb710b8240d59a4.jpg",
+                        "20-f29eb213adfb4043b679bd9fac8677d7cb007ed751e17b4ec254c46f0e8e4a9e.jpg",
+                        "21-94c562f6836033fc29bcfdbe3c77bd79ab7c50069f394c331825d63defcbac0a.jpg",
+                        "22-ed38622fd14dbdbb96d89c849a4ba52029fe395a7c9a341ee3c3c9888c111f24.jpg"
+                    ],
+                    "dataSaver": [
+                        "1-9a0fe8cc93b0ffc7302406babd1e20925e8eaa8247d9f0854574762536570a90.jpg",
+                        "2-4559fecd732343ae5086eb44bc2fd94c80f7f97a74da9aea23bd5d2196854d35.jpg",
+                        "3-32fe835665dcfe404c0c25bdf4f7dd5e10c9a1daee0eb78e91497f8b46d2464e.jpg",
+                        "4-4879e875efcd42e76b1460b1992b9d4db6f7015c0a9d1a54098967ff46d80a44.jpg",
+                        "5-fb2910b93d4df008e748abb1eff139a0f29c5e14be7a160cc6a3ed1adbaee2d7.jpg",
+                        "6-d8530c86caec7889ca5610903faac7b54cabd407385a008b15609095ddb80424.jpg",
+                        "7-0e8b4a5a106099f6b2e24b391cca0d8430868b01428cf20f4718c768adc713c3.jpg",
+                        "8-d83ee28aca7be3b755de45bd9dffdd68533782d8be65b89e738505069ebd3be2.jpg",
+                        "9-007e965b5098e962bdd9dff5875f523a6912a443006478f6c01027146664d4ee.jpg",
+                        "10-17e1ea427329fbfefff522a4e0112bbe7424fdf7b943586c5d53b6fa261c612a.jpg",
+                        "11-5aec2a2a6f8b7203a34bbf10790eb17409298015f3d669d4f8cd61be4ebb20d9.jpg",
+                        "12-8d505dc3d0a8b54aee688008e6d318ede4b86f2f6aba4ced100d6a76551824c6.jpg",
+                        "13-9869c7e08cc4b950106cbffbd3ddf4187b30a5c9b067d44305e84bd6c8f2c917.jpg",
+                        "14-4cebde988dd900326f59bf66471b80b9418ec6b2b1042ff945016959971ccd6f.jpg",
+                        "15-02a6b77c16dd71c09c40c159365bd6ec2f9fe4b13d4ebd05001e362287d42559.jpg",
+                        "16-146127f0fec74bf5c4cd71b7e1d15eccbdf4df28dd3d78ed29445dcbe90a9980.jpg",
+                        "17-adf45f4e6fb4d4baf4155bf6c8d70141182eabd206a62d53423f572fc0307afa.jpg",
+                        "18-172bc8593de2de391e525ba695fc56c64eaf7473a7e9795248d3ceba0f59e49d.jpg",
+                        "19-e7c1a6be45a0f87265d6898d8e2b53c74d7f91b8e5ad533539ad332159679677.jpg",
+                        "20-bcc2421694cb92dea67c798cbffad7e974e047fbb4bbe96b3b0abf52687f9d43.jpg",
+                        "21-f0a64e3025494847c1a9a3a897b07508e488f14901de67a58dd9518dbf3de7f0.jpg",
+                        "22-2742ba266d26b438471011369b387826cdd907e12c78baf070ab31fceff76ddf.jpg"
+                    ],
+                    "publishAt": "2018-01-20T16:25:15+00:00",
+                    "createdAt": "2018-01-20T16:25:15+00:00",
+                    "updatedAt": "2018-01-20T16:25:15+00:00",
+                    "version": 1
+                }
+            },
+            "relationships": [
+                {
+                    "id": "24adf288-d0e3-4d34-b342-bf8c189aacaa",
+                    "type": "scanlation_group"
+                },
+                {
+                    "id": "a2febd3e-6252-46eb-bd63-01d51deaaec5",
+                    "type": "manga"
+                },
+                {
+                    "id": "5a522f9e-317f-40e9-8cf5-603b0e209731",
+                    "type": "user"
+                }
+            ]
+        },
+        {
+            "result": "ok",
+            "data": {
+                "id": "d393d40b-15e2-4dd4-a723-84a7fe36d931",
+                "type": "chapter",
+                "attributes": {
+                    "volume": "2",
+                    "chapter": "10",
+                    "title": "Today is Holiday ④",
+                    "translatedLanguage": "en",
+                    "hash": "36a7706eae81857f10f88fdc6448548e",
+                    "data": [
+                        "1-b28a30c41770736e1987ad22ddd1cf7956f93ee560ea425c530756ba457ca9d0.jpg",
+                        "2-93f881f4f30435208d3f624c73ae05e242daf69bb7eb0a3fa0e660735021ecba.jpg",
+                        "3-fea54ef480029c69e5770e88cf79a87c49df3d4bef8218c397ec49e1a55eb0b4.jpg",
+                        "4-56575e4f45e2ed97ca5a25ecf58390b919d1c6f7816166e03c83383569c03886.jpg",
+                        "5-1f1dee4b54dcc58b0506cd87372a803ca5a6317282402daed495e582920e40e1.jpg",
+                        "6-679440d6bd0ed3126fcfaebd17da1eabe0b43a6ebc9133cfb526c8b7ad7aa95b.jpg",
+                        "7-d5f99fa78e3d441b35054becb626169ed85085da26c81a0cefa0cc811f28cf13.jpg",
+                        "8-4e3d3ea64f586169aa27872b86449f08eba25b55971e039c06ccd4d7173daad6.jpg",
+                        "9-4a7c305c97b25a47dbb87c43d52e90f84b7b7c8a638ce7720556be5fbd7aaccd.jpg",
+                        "10-3008b62dc1b15b4720d9342b169025521df806739cecff04ef4e657f60d6ab64.jpg",
+                        "11-45ad8fc240031f254580580406b28fe6440cb36a5f18c7525668c9b96332a2f9.jpg",
+                        "12-a60e358372fe2f6a5685d9281f9cef2f340ffda406b25c9d4eb3704e97246257.jpg",
+                        "13-cf03cd154f7605147d9ce559b00ee50d11b4f339f709ca8d78ef66a945b00a5a.jpg",
+                        "14-089a526119bd55ac4463df43db9f68f2dacd3111213716bcad2e8e49a8267eb5.jpg",
+                        "15-0c6b314a8f025e04fd9b0fae576d54430d42f11247ece637bacf27de6ef344d1.jpg",
+                        "16-d7f1a2ec7e671f9f270d4d976b3e5ab99be2be7b5cbffeb70d401b9f68af6db9.jpg",
+                        "17-a879aaf5c1141bd39e64ddb2e41811a12845bf10586aeb76610000a689452c7c.jpg",
+                        "18-f0035ca7a4e585bdfab3cd9ae565ad00cb7b9d5c9a0650707ed216342fa9c9fc.jpg",
+                        "19-2262f8afe112ea2626cdf69c5be3d50267dabdeaae94de0d76b767753115c797.jpg",
+                        "20-20a5d00ed90cf9ca887387fded4babeb25d8420bdc70fe13581c04d6c40e3ea3.jpg",
+                        "21-ef4103963fc7058dabc201a1efd4896f0abd5abee60d90885f9340f6569dd9e3.jpg"
+                    ],
+                    "dataSaver": [
+                        "1-2617941a6efa8e8d2d36621167a49eaa52d99a64e679a48b75771307f80fa955.jpg",
+                        "2-cfeae8204db39c1ab8527b1993036cbb08ce8b6614a5bb6a0182ccb8682fc098.jpg",
+                        "3-648384d55e65afcc9faf6f13cd1b9276fe284709127a4841ec4c467cec115d41.jpg",
+                        "4-fd1950475cfbf6cd9cf41bc2641c3da00d023f19c79e6f31153affe297592e6b.jpg",
+                        "5-5f1bad76067ebc0c8795e7d7bc40754d5870b9b69445b32b9eeb357ca03c50a7.jpg",
+                        "6-ef5610fe2cfdb4c9cdb96799cd818946bab406c386ce1611faccf6f93cc466b6.jpg",
+                        "7-b49e6051465a13e3a0978eb4d367544f52dbbbfcf3e0161154ee100fac691b77.jpg",
+                        "8-9a54dff50a289724bdd4e1fd2cdbaa38349bb57c369ea904e99912c72866958a.jpg",
+                        "9-f79aa77018bb7ce51876327a2fb01ab1a8f278262097b51e3661ff19e3cc28e9.jpg",
+                        "10-093fe59022d2a9f1da981783094dffa3b218937b3f793071cf76fa23e19cbf50.jpg",
+                        "11-69b3b8fe72a14cef9097b4a05eaf9c43aa12c700644626c12d7ed0eb20ffe7ef.jpg",
+                        "12-7683524e17c8faa4690df125ecbcb4117a20da049859f72935feaeada775020b.jpg",
+                        "13-e54c8575dfeb34cc03aa5fb6ea6a87b2f1ca9f090bb41eb7ded3023986be687a.jpg",
+                        "14-037bd9e7900f21b84198b1de1c78baae45cf2dd9f9ea97cb1e36e306fc00ee86.jpg",
+                        "15-ab647ca5feb129ac804a8c5cf29b10b1378374e1b34ef4cf294812019a086271.jpg",
+                        "16-96ddefed83a344df72fe57d5197fc8eaa8f4604c404cb0598e03f8baf6d07e19.jpg",
+                        "17-9105a518b7d84126ab65488938d2fd5e923ffe553fa4066086fcddbee6423a04.jpg",
+                        "18-20474dfe67a17ac534024bfcbcb41fb28c9033742f68f4e08cfc4a6eb2dc7942.jpg",
+                        "19-d89491da77943eabaf523e60a9001a92ca8503303915b0dd668ed20bee703128.jpg",
+                        "20-aeb8b7f1c93f8529adc5235d38b99318f42a34451f2bbda8f3ecddbe315d0d64.jpg",
+                        "21-0a5fcb117e6abe68c696ac0948f3ad64492328c2fc4552cd33bb4c9ebe202c9b.jpg"
+                    ],
+                    "publishAt": "2018-01-20T16:28:05+00:00",
+                    "createdAt": "2018-01-20T16:28:05+00:00",
+                    "updatedAt": "2018-01-20T16:28:05+00:00",
+                    "version": 1
+                }
+            },
+            "relationships": [
+                {
+                    "id": "24adf288-d0e3-4d34-b342-bf8c189aacaa",
+                    "type": "scanlation_group"
+                },
+                {
+                    "id": "a2febd3e-6252-46eb-bd63-01d51deaaec5",
+                    "type": "manga"
+                },
+                {
+                    "id": "5a522f9e-317f-40e9-8cf5-603b0e209731",
+                    "type": "user"
+                }
+            ]
+        },
+        {
+            "result": "ok",
+            "data": {
+                "id": "429d18af-93ba-42e9-bcc7-d5f1775a4016",
+                "type": "chapter",
+                "attributes": {
+                    "volume": "2",
+                    "chapter": "11",
+                    "title": "Today is Holiday ⑤",
+                    "translatedLanguage": "en",
+                    "hash": "990806b0a586011ef5e57658c9840067",
+                    "data": [
+                        "1-3a9132341b2495a59218f1afaf98922ab3e3260a90c15d30ffd3c8eb60671805.jpg",
+                        "2-cab08c8f762cce0f8068a7924b7de76bd6990ca04685a7abd15a38460365d768.jpg",
+                        "3-5441709eb74e94455e01b46a500bed9dd5b0bf8bd39e0a6246ded842b3b8561c.jpg",
+                        "4-bf42feb5aa7cc53f8e4193aa508ce110e3dd77dfaed55a8dfa3f55904407686f.jpg",
+                        "5-ed92613c72fdeacfc05dae2d75f05038e046cb56501dd33fb5eb2d7bd9e39b21.jpg",
+                        "6-c775577a932abd81f4f3d49e73810569d4c889dcbb5e2000f7f16b953bbc5a5d.jpg",
+                        "7-cc25dc2001fe2beebe04b9960ebeea3452c5829ffd2667d4cfa0b2327eb3bff8.jpg",
+                        "8-3f08ae79f63551b655d9607f3044d16722a9d153188b7cd76042c226292299c9.jpg",
+                        "9-25c56a625cb73ac7e0d2902d14b875af2764d0f396cb4aa7fc8fc37a548979ef.jpg",
+                        "10-d40be18b13567e9d46024f62be5a86d7ddea4a6b8379b134c0dd6bf3243276cf.jpg",
+                        "11-291922d25f5a22043679419fc210cec2769ac2a22f0541ec6a56c0dac9e3d5fe.jpg",
+                        "12-91f60c3e19a911c161768368ff998c6ad4fe8eaa6a85622c57a65b744e294b6f.jpg",
+                        "13-2e97db99925d54351d9839292eec5df5768848b35f1fd699d57462593e0d1a00.jpg",
+                        "14-05910883d5e5bb50dfe25d0ddb001ad485ab2e194b71f56ee71da234c2621115.jpg",
+                        "15-20f318313099267796880fb879df3948b7f8fc8c9fd19c54f1c729fde276d223.jpg",
+                        "16-a81dbdd04257da79f7bd1643b7c013999970dc66374af8fd11e30a1d9413c5e7.jpg",
+                        "17-550b688c37fb724d5c8ae1e97527cf9b1744d33ec1a6be2c8d8781d6108acadf.jpg",
+                        "18-092c3eb3d4bcb90d268c581ea8b8c89ca4d4402256386f8c97117d06534fb400.jpg",
+                        "19-250c0ec8b921511dd54e7374094b995831b3ec0f32b904fa9851685e795bcfdb.jpg",
+                        "20-f49c9def3fdbc935ef717b20acdcf7857a00dcb046ae4f287b46e34e6ef947c1.jpg",
+                        "21-a029023148c5eb3deb76da78fedeb015d9cdc136cea12ab3f63a57549dce5121.jpg"
+                    ],
+                    "dataSaver": [
+                        "1-70fce2fcf3ddd3bdf13c313bcec67f0000b6fa358aefe98cb085a4775bac0067.jpg",
+                        "2-97e66574a0670c2a626f823b0405974f7de285a08f06a3667f0a6dc1246b5175.jpg",
+                        "3-5978cb286ee35e09175e546229b16a31b6ed312518423b1266c4b83f1839097c.jpg",
+                        "4-131792549bd663faae217d71be9b4144d590ac15cd96badbc357c4fea3a712db.jpg",
+                        "5-9b3da00dcf8c9417791789ea4966bb2eb3d2296b14db6cabc4661f98e6037e22.jpg",
+                        "6-9db4a052bc78e2ed6df13229c6b4a210ecf6ebdf637237e3454a9cad05df5940.jpg",
+                        "7-e9d8e48afed4648cbf087d507733488d807aeb9e9721b5b4074ce57993b81ddb.jpg",
+                        "8-2161e28f570a2a81825653b4c522eac64bb1c6ba3954e5b222674c035061eaac.jpg",
+                        "9-bac34f9015f4931b9ac9f39d1df9bc2673e2d93c2748a3789ed67ed36213e8fc.jpg",
+                        "10-ee10a963aecdc763ce295974573a942094e4645ce3d818c52f2edd8482360727.jpg",
+                        "11-efe665e5630cd4a98162b9138bc7c0cf7cd141f02621a83c507d6e2a184796e9.jpg",
+                        "12-9d068825faabaff53a7333f790ec024924316a347c0eda5faa49949728b4dbd2.jpg",
+                        "13-5c6736b30e4772b79560f46b8c36973b9e18b4f1b48dd9f54a80b4f710c8e005.jpg",
+                        "14-830517a630a0ebe90bfabc3279f7ed992abb7bdacef31e9967e3587e3bf97395.jpg",
+                        "15-030e715ddd6c698d1c8b62b915adf9a38e389721692458cd797539212ade31e7.jpg",
+                        "16-0f101eff978de363329ff91668fc6e484712336f09cc042e364aa760f56c6479.jpg",
+                        "17-372cd6301423308766199b2bce85885ce3f10436dd02866667efa5eb0b8816e1.jpg",
+                        "18-7c89325192e73bce70a2ed6d79328daaf128e272a8c8488c2454f52f9176c0fa.jpg",
+                        "19-21cf1a83a96036ad9c0c29a2975d2b77ad3b3dfdf24b6a0fd0ddae5e8245e31d.jpg",
+                        "20-833ff0758538b87f56a389422a66444e8660cd28fdadfec8968f143e21e3a5d3.jpg",
+                        "21-0a5fcb117e6abe68c696ac0948f3ad64492328c2fc4552cd33bb4c9ebe202c9b.jpg"
+                    ],
+                    "publishAt": "2018-01-20T16:29:58+00:00",
+                    "createdAt": "2018-01-20T16:29:58+00:00",
+                    "updatedAt": "2018-01-20T16:29:58+00:00",
+                    "version": 1
+                }
+            },
+            "relationships": [
+                {
+                    "id": "24adf288-d0e3-4d34-b342-bf8c189aacaa",
+                    "type": "scanlation_group"
+                },
+                {
+                    "id": "a2febd3e-6252-46eb-bd63-01d51deaaec5",
+                    "type": "manga"
+                },
+                {
+                    "id": "5a522f9e-317f-40e9-8cf5-603b0e209731",
+                    "type": "user"
+                }
+            ]
+        },
+        {
+            "result": "ok",
+            "data": {
+                "id": "9630420a-6555-41b6-9ef8-079314319861",
+                "type": "chapter",
+                "attributes": {
+                    "volume": "2",
+                    "chapter": "13",
+                    "title": "A Kind and Loving Person",
+                    "translatedLanguage": "en",
+                    "hash": "a459983cf155652a92422a2be5c39e4b",
+                    "data": [
+                        "1-bb08d733c6e5e540b5cddfdcb14fc9262006c8422b5fff28ac57e90c9bcfc488.jpg",
+                        "2-334b346c48d1c692b9df96c2f90fa00cfe74d4bf7f88bc1905f44c74c0aa6a52.jpg",
+                        "3-ffef10392e7f1dd891dd3c66beaae19970946ca8217524a12ce79c3b04507d0c.jpg",
+                        "4-b98fd2d2d90e0aececce7801a21b6ac896124a5590a8e7611f3dc905deb5b764.jpg",
+                        "5-34a9333bd8ef86c97fceb62553e4f277a4851042c74dd17d94ba42eae0de071d.jpg",
+                        "6-3937e82e53853900a2758748ea2982f31ca10535c9177d539c52f2fa6ddb723f.jpg",
+                        "7-4c422a19cef02b225887a467950ed9f34ee6ec4a6b62b5173ed2c89b313cc9c2.jpg",
+                        "8-79600b53295a42a400d7df446db0b4699a7bb5b07aad196c0cc58b986fc289ee.jpg",
+                        "9-48367f7c5ab256e6053fd42be36289b9260bd726224a7e5dbc14a82210c8125c.jpg",
+                        "10-9ff3a37b7c13f7b2b865ca303e0087bfc807c49cafbe71432723e523eb9b3bb2.jpg",
+                        "11-fd63e6ef095aaf2ccc22d5d7425d4d61e5d25eae8780adc37ea7b8142acc68c2.jpg",
+                        "12-0e77312e3197c24bae9f205d0a0123ffb6bd341861907170d0faf274f6bc037d.jpg",
+                        "13-e0e2791b87cd821bc6a31aab3ae0e451e0bc696e4939274e803bb4e90e40b5ef.jpg",
+                        "14-ebac01750e06490a3b2d51e53729e2710a523c8de1be37c84a6236039c50bdc2.jpg",
+                        "15-106afee24235c72a21e3f6740063dc97dab811e0084823032c89637b51b6a2c7.jpg",
+                        "16-434007cb9d17e3be3f1ba5df4c002172fb093e528e56a1e65315d12ab04bcda5.jpg",
+                        "17-1ca0939a01c08bc5d8a86ef0754f5d15d57bdffbf13070bf3ebdbe9b761ee6e4.jpg",
+                        "18-364d64c9907cff8510ea5e18437b0c16a859f850c2342a89dc9228646d5bcdf7.jpg",
+                        "19-8811b6090e8cf0ed7ea393b24b5179409f914c7acef107250959604b2c05de5e.jpg",
+                        "20-1d19bcf715b27afe1d6539e589748cf3a70f74d4db50d009a96251f9d37c7b01.jpg",
+                        "21-0adfa00b6bbb201f67a53020d28840a57e06473bc9fa186c2108095956792f03.jpg"
+                    ],
+                    "dataSaver": [
+                        "1-024ecce45cd3f25d96ebb0fed916809d98257631d573064c2fa1def836568ef9.jpg",
+                        "2-183e29b61ceb69bfb2fbf42964d117dfd6848e1ce741929ce95481fd9b3c7b12.jpg",
+                        "3-87294277adc957269c6e0cf960406023bde42f40b88dc84710727105e5f3d5d3.jpg",
+                        "4-e5e9fd2a5d714e7836a35163efcd4340ebbd9e6a660aaccdc1b2c8734f7982b1.jpg",
+                        "5-1151b4aed5317a96cfb6919823b7952f2fb8fc96452b081251b95e62581c720e.jpg",
+                        "6-93b788eebe38daa5b4e5d0e6c30e0640639bc74ba6f5653d1d1abc5e26841159.jpg",
+                        "7-5b58d32f4dad063dd784eeafb1ef11717b2ba5fdf2fa22a0cfeb9c0e6b7430c5.jpg",
+                        "8-c8b39f90482a92284f192703956abed2cd773ebaefecd26cd2f9bb41c576c1c4.jpg",
+                        "9-09a54ebd78fed192ef7db114dc0d210788b3956eace34fef7a22b0947ed41a4d.jpg",
+                        "10-9e3629e2a7c58ec72efd3eca84f3f2f70160a23ebeb09cb715fe8f9497d2554b.jpg",
+                        "11-b6bf43c01d3df89a4df78111ad58f7010e81538f539b6417b074374016238d84.jpg",
+                        "12-dc20816e27f290fefa33b2618c8767f937ef8d496bae2ccc25dce4a21a1b0843.jpg",
+                        "13-b815132308df38cdcf2bd32bfa97b7f5ff6e8bf193399a0a2837a2d6a00f97bd.jpg",
+                        "14-42706508b6e1b905e14155a8d4636c18357e131f315da3a78edf56a4608922fd.jpg",
+                        "15-930c09602811167a7810720a789278c81fa0ee55bdd0400a6776af91eb78dcaf.jpg",
+                        "16-1d1f478323acdfaa05c8fcd82977ec37d019dc54b8a6ac684cbd89746a5fe989.jpg",
+                        "17-31714cf10ec5895747023fbbc6f07094e6f65b12a3a0cff4e4bb2a175fe2f33c.jpg",
+                        "18-ce12dbe5b31116a6987e21e93b8d2abb7d4e0eee65715da33041664aa9f60c76.jpg",
+                        "19-c5798a2a793887789035e3da8ff69cf8db01e01cccdff1bda76a5fcce3653bd9.jpg",
+                        "20-dd1e97f6f5d68462f86195900242fa8ad961e2e7a90478fe7463a12498b956b9.jpg",
+                        "21-a6f79552f664df57c44d8c9fb9b335b71b5883a8d9e093460dbd842703144cc3.jpg"
+                    ],
+                    "publishAt": "2018-01-20T16:36:11+00:00",
+                    "createdAt": "2018-01-20T16:36:11+00:00",
+                    "updatedAt": "2018-01-20T16:36:11+00:00",
+                    "version": 1
+                }
+            },
+            "relationships": [
+                {
+                    "id": "24adf288-d0e3-4d34-b342-bf8c189aacaa",
+                    "type": "scanlation_group"
+                },
+                {
+                    "id": "a2febd3e-6252-46eb-bd63-01d51deaaec5",
+                    "type": "manga"
+                },
+                {
+                    "id": "5a522f9e-317f-40e9-8cf5-603b0e209731",
+                    "type": "user"
+                }
+            ]
+        },
+        {
+            "result": "ok",
+            "data": {
+                "id": "76760541-5c41-4e03-b6cc-382ac7a49c5d",
+                "type": "chapter",
+                "attributes": {
+                    "volume": "2",
+                    "chapter": "14",
+                    "title": "The Started Picture",
+                    "translatedLanguage": "en",
+                    "hash": "698dab8107972a65e1c8bee9b4e77b25",
+                    "data": [
+                        "1-018e90b5d99e2999ba272f40ef8535559f22128385a78a8fc0bdb37e06e258dd.jpg",
+                        "2-4c458eba2308f2ef38b5a8aa9f3b75bb9e5a0e7d44813f2e2f57a84cfe54fd15.jpg",
+                        "3-b39a7a09b48531ab479fc0d651419a94853eec287bc86d8cfbd1957e4cf555ef.jpg",
+                        "4-4969040be7a8f32be6068339c9d5954d7690ed48c37e88692eaf7d6d951963ae.jpg",
+                        "5-411712763d976a4a6d9c4d257fa70ad9f9480862493a126894930b485d2f522c.jpg",
+                        "6-2eb969c6e96cf435cdd451fea8438794b417d730934a61c496e7909e33820bae.jpg",
+                        "7-1e17205d4260e292df41cfb7afc21145b663ac86fb8f41005ba1dfb5c8bbb918.jpg",
+                        "8-32d22f56bd765caf834e887390a5269f6afc434784fee497878bf3e50def86e1.jpg",
+                        "9-dc9b5a7924cf6a0e7751c0e20db6afece8415b3bea9fbf8fb199af3974c37d2d.jpg",
+                        "10-165bec58b78a2b3954ff76e9a7a2835f4c2efb40ae27f1ab35a99f283032b4e2.jpg",
+                        "11-8e88f584dccd9810cc6e5a3ea773dfc894ce637489dcb24e8017a25ab1ecac21.jpg",
+                        "12-54d14a6c9148bccfb764563e4f85f8bb39fe5b130baf9ef40208ee1c67c2ce8a.jpg",
+                        "13-d1eceedba1a8362ad07d96cb3bc1ab5d589adb2cf9005970ccfcf5a5a9e6af4f.jpg",
+                        "14-520b6d5ef75e33d2398823b24c6c8dd8da6e36568524ae44b04d41a7f78dc86f.jpg",
+                        "15-af50d7070ef6771bb4c38da915fb92e05cdf524c0164024544e6837e2a186f9e.jpg",
+                        "16-15ef5f1275f0b8b436d95f0d75eec027a87e0a96761cd93150734fa3f7cb9216.jpg",
+                        "17-e93509e33c8b7595312a40d8c0bac6aee8d7e2bfca00cad305fc96aa81dde858.jpg",
+                        "18-531b9c0eadab7ce10169345b6ac7035b36d7ff0b3054265b665769a3de527dd1.jpg",
+                        "19-21ed5f6150c1741f95f409615a3bcdabb7df315ba5c4d480578424fea6ceb5ec.jpg",
+                        "20-1c6564fc1a721ea0d07f3fa0b8e6c85e920bcbfebaabd21825d7461fa669a87f.jpg",
+                        "21-1377cec9613b56c7d44adae8974ed3d3e30316a46cef517a313ae4ba684e510d.jpg"
+                    ],
+                    "dataSaver": [
+                        "1-dd83aa61a8749995d07b3c4fd891befaffd071645c0ffaefde5fa6e92f8df657.jpg",
+                        "2-519c426e94f3573d8cb6d45f83fdfacdf0fe7b8c35dda2fa2d50f313c7e8a7f9.jpg",
+                        "3-485b2640ea4aea81c125c71f3c29a24d380146d72e91264d9e5f0666ffe6df2e.jpg",
+                        "4-9bc683ef165fdde885a5b4360ac6af147ddf3f9493d575b94eddec3aeef7c5a4.jpg",
+                        "5-2c83acb83a078dca3f336cb96294d4676e4c8241402a5b93d2b215c1961e1229.jpg",
+                        "6-2f236e96d7e4fc85fdce85dc6e5f681202b9f47953cff2a668a2322c53d01f46.jpg",
+                        "7-31ccdc8f61b4b8e71772f4cb0e13c2bacdd0f2233fe7811f7b6459d0d665c344.jpg",
+                        "8-e0cd64f32afed27c00a8f6a25897e0d15169ad511973405292fa1051568e0d92.jpg",
+                        "9-10676cce74245750ee1f57433cabfbbb052fcf16cd4ddd92a62297350468a838.jpg",
+                        "10-c075913c0be9fd4498ae16bfc5334b82e7ff1820906490a6ef97d9def5ab715e.jpg",
+                        "11-e7389026c5b8cce0eb168ec6c137be9641e070731b52d99a5e613b3ee8a8ca63.jpg",
+                        "12-2eb0e92d779be10b10729e0f53b7160bf45e4868c9d2ebd8c72431b621f3d63f.jpg",
+                        "13-4d31be4ec5b0a5f092259c7d3bd567f1398ca37cea73a26c0ec3c14821a1135d.jpg",
+                        "14-6d5dd58111f25f8dbe0c277423e6280379d8030b4a4b504b6eb7fbad37a3b10b.jpg",
+                        "15-b015a70a46fda567ec76abd93d16abc235f261b3a2c547d0df39c89d900b48c4.jpg",
+                        "16-831962794e8a32dbbdedf5c88a8e5a46391a0903597d6a145ac503edd7d20dd6.jpg",
+                        "17-6361a1211752169686e216260801da65f9edc174628f5934dcb2a3e643bccec5.jpg",
+                        "18-8d761d805976086a436046f1138333b3689130c05d7a454e41fb32add946cf5f.jpg",
+                        "19-423e84dd4a1f7b084331ae8a7af594d93823f75852f4451933afdc9bb9aacd36.jpg",
+                        "20-1abe823a2c6a1cbc9357d9690573f3906a5521708114898546b49ac8e41d54ca.jpg",
+                        "21-469f8b2f81e7995ef03f8314aee84d7b2e2c4fc1f37ffe4d4d60d07030163f97.jpg"
+                    ],
+                    "publishAt": "2018-01-20T16:38:07+00:00",
+                    "createdAt": "2018-01-20T16:38:07+00:00",
+                    "updatedAt": "2018-01-20T16:38:07+00:00",
+                    "version": 1
+                }
+            },
+            "relationships": [
+                {
+                    "id": "24adf288-d0e3-4d34-b342-bf8c189aacaa",
+                    "type": "scanlation_group"
+                },
+                {
+                    "id": "a2febd3e-6252-46eb-bd63-01d51deaaec5",
+                    "type": "manga"
+                },
+                {
+                    "id": "5a522f9e-317f-40e9-8cf5-603b0e209731",
+                    "type": "user"
+                }
+            ]
+        },
+        {
+            "result": "ok",
+            "data": {
+                "id": "50e90413-71b1-420f-bb53-63b7b095dac9",
+                "type": "chapter",
+                "attributes": {
+                    "volume": "3",
+                    "chapter": "15",
+                    "title": "Thing Accumulated Through Time",
+                    "translatedLanguage": "en",
+                    "hash": "228cecfa1e63aa350c1c52cadae8f7fc",
+                    "data": [
+                        "1-2e1edc3aefdeda590fc3e0178672319a229f5e206d0dc5e1e93780b69e9e139e.jpg",
+                        "2-39dd1a0878fd1aa82fa7e63c475acfc16222125509b721f7cdc1df257bf9fa00.jpg",
+                        "3-02ec1048cff19759bfa66ccf139ffd57064103eb3e842b357287bd38ac53dc2d.jpg",
+                        "4-2ab55ce778b6d0fe0bce691a13f8218b50b1138c7d2ccdc0d3947b81e603353a.jpg",
+                        "5-823f5d627300fdbf0bd780703c8031e3652204acc695146a855708c3a37b853d.jpg",
+                        "6-2208b0751cadac5dd5833041f0e09887ea3a1b929e1b0e747819712fdddbe13a.jpg",
+                        "7-db42e75fed6c1e5db2eebc86cd55c52d06b168583d4d822a5ab2e8b6dacfcd8a.jpg",
+                        "8-857e2ea0ee3531a0a20109faae2c2b6fc86b4081e5eeb8e9a32c9ed39b9435dd.jpg",
+                        "9-4e8462810baaebb42c2d897d0420d3e0cbb25ce57fd8f6259c1d43cb9d2a04e1.jpg",
+                        "10-375f8ccf13ffb4ae659eb0a654df04a717928126ab22cac8663b3b5ef18e0cc2.jpg",
+                        "11-90b0f85be318a4df92247bcb035f1bf8dfcb3e7756a7db96ac76de89860cf0a7.jpg",
+                        "12-4b4ce8cb519a2160683004d4702bab0b73a0002784a64d01b85235d1ebac4174.jpg",
+                        "13-72cb2dc579b39b21a205343c59e6ab4a1a060ed2d2ef6ecfe6e7d1b70720a75c.jpg",
+                        "14-99dafb417449f5d4f37e44e7f7766d84c75589634960d1af015011e230d77866.jpg",
+                        "15-e819bcb29f2289f86a8a10899d004beca1191bad70ee075fe44172c4794dffbd.jpg",
+                        "16-4bbecf80135b5d161475bf802653b9b213e9c83770e9441c997dbe2a52f85228.jpg",
+                        "17-e7f17dad94a696d9e41741eeefa58406a00bc68468c171a197ff424740258f8f.jpg",
+                        "18-58439c2ce64b9dcb497320c45ea5d85289ed2417efa16bc6e751861e653c9ddf.jpg",
+                        "19-0fcad09c3da7a05d4977c6c764300ad100c7e587200838652367565e1407f21c.jpg",
+                        "20-dfcad6c19e6d580e5750df48ae724dc6632667e711f3c818b6c7297add65f10d.jpg",
+                        "21-0160b96fafcd221adce72b9bdcb988cb056a580df3bbed49f4865c04d9d00221.jpg",
+                        "22-bc1b07f0f6068ef08b21d834a315fe154c7c3ddca64c83580d108c141e8a0100.jpg"
+                    ],
+                    "dataSaver": [
+                        "1-2b1573003246c944edffbe88ca2f2a8a7446a63d226ef9acedb5e79a7ed0ac24.jpg",
+                        "2-74447d3ab9b5308c578a6b1544f900bd71d8589cd90bbc769899ca60b1a91752.jpg",
+                        "3-780e4392a6f365ed0dab3430d536b582929b72c0df703477ece2bac5a9944d5b.jpg",
+                        "4-9b1a4f97e5f7fed28a4f8f943eb249168360275223470eb8a71d027e5142760f.jpg",
+                        "5-0d45805cc0bd972030df2af4e5715dfb63226003d1465d7e5b78cfefd726483a.jpg",
+                        "6-39db3e632d501fe22b9bcee77da4ae74367b9d44d45df6846595034cdf18748f.jpg",
+                        "7-ff0f4d6631cb809d57f4f57406e729f596a0ce159501f618c7eb8869b96e09a2.jpg",
+                        "8-e9c552c4b236d233e3a053afd388e94a0da51492286f0f53e258a2964d46fdd6.jpg",
+                        "9-1d6712db17cc8a877dbb8fd55147bca8c5e1e9fc3dd3565684a5df6709513073.jpg",
+                        "10-90ba89500eb5f1458e9b9ce38c1ee96a800df7aeaffc8cd8f34489254d8c4546.jpg",
+                        "11-d59fbc4417db40613cd281cbd4bc6bed7285fadd11fe22ca54568e4e6cb1dabe.jpg",
+                        "12-59aa8a4dc400c7b59730edfd3641bac132065b3e343fc0f4824ac6df69507ffb.jpg",
+                        "13-ff35edf86e9e338004928318d05ca3a329f7b6c5ac10d5b1ad371d7acaa4b49f.jpg",
+                        "14-87c6b3bf13f6e1973cefd349b6951b110b54fb0d6108e5c007dd46c123ca554d.jpg",
+                        "15-ad4bebe1edf0598d4f09d594ea44082374bea27b8c44d107d7fd747b0097dfb1.jpg",
+                        "16-07debaaafcc574c5ce0a8d8d2a63dbc7fe566e0ed0876a9dc46692d824cfcf88.jpg",
+                        "17-c3863e60d0323b121d6edd77d62df6562f5dabb5de40ad37145f394e187e2c75.jpg",
+                        "18-66943f423d7bc320e705d34dd4ae3762244b11c22042fbde40be2344af7ef594.jpg",
+                        "19-8c2b4e513492233d0cd9aa2da788f34027684c0bce47885fdbcddece9a4976e2.jpg",
+                        "20-630496b18ba3b000ea4cafd40e163406e6a9e2647f0f38d89570155d35b7bbab.jpg",
+                        "21-307f3d02365685912d2a564713afe2f50a18891caec4f112aced2c38209e8305.jpg",
+                        "22-e3a4668ada97e11178fc0024b8508c22887fc9fbee4b50ed8da06995c80d2532.jpg"
+                    ],
+                    "publishAt": "2018-01-20T16:45:00+00:00",
+                    "createdAt": "2018-01-20T16:45:00+00:00",
+                    "updatedAt": "2018-01-20T16:45:00+00:00",
+                    "version": 1
+                }
+            },
+            "relationships": [
+                {
+                    "id": "24adf288-d0e3-4d34-b342-bf8c189aacaa",
+                    "type": "scanlation_group"
+                },
+                {
+                    "id": "a2febd3e-6252-46eb-bd63-01d51deaaec5",
+                    "type": "manga"
+                },
+                {
+                    "id": "5a522f9e-317f-40e9-8cf5-603b0e209731",
+                    "type": "user"
+                }
+            ]
+        },
+        {
+            "result": "ok",
+            "data": {
+                "id": "a6397516-552c-42ca-bb7b-50d3db7911ce",
+                "type": "chapter",
+                "attributes": {
+                    "volume": "3",
+                    "chapter": "17",
+                    "title": "Nighttime Study Session",
+                    "translatedLanguage": "en",
+                    "hash": "3142828c6f60425127729db0f02461de",
+                    "data": [
+                        "x1-228028e97c168ff29af02fef83934dd91763eeddbaf708fa2bc4eea02b494305.png",
+                        "x2-59477c9ea2d9fb61dd661366e3f561fdf32a410855550a64fb9bc6ee00c7c92e.png",
+                        "x3-7a84c731a0d91efcf9befb178230fb2cb7bbb8da621f071e79bdd13291c49024.png",
+                        "x4-54b042db3f20cf642a2815904f2d8226d0b038a7d38f0b13481d246d93840233.png",
+                        "x5-34038f0567be381dca4cec6b5ec897cda05b4b3f72cdf6c3f93efcf1035f0dba.png",
+                        "x6-3e5e13b777fc5b7b8bba893fb42577119bebceb9223284ae739fa3f23a649b24.png",
+                        "x7-95c968dded0099f063907d355b107c54241d2e7a9d9765ca34d0b5c6747bb587.png",
+                        "x8-1f8d8105c6f2a61aaa2403a9bdcedfa557782736ef26414d852dfe58a3366822.png",
+                        "x9-93cabe0614f38dea970d04ef2fd88aa36035886229d72d5e83004fffc1d8af23.png",
+                        "x10-838c2ecfbfbf2acc174b23adf5d3bfadd4761668aabe0bd54104b2394995de0d.png",
+                        "x11-a1c8e5087dde28d2b927531452bb10480441953ab89c1d0a626698d893152c20.png",
+                        "x12-814c3271e28bd12aadb4b158c0f19eb37fc131fd8b5290bb6109df5380acff4f.png",
+                        "x13-16c3d4057d7c94d7e9ce9d854664d38bf0911293d6a243f43ec766a451fc8130.png",
+                        "x14-2a0456ec99639b20d7771a2b43b0006e294eb43828e905263f8ebba4d9f8be5d.png",
+                        "x15-fe5ee62492008e600128da48779ab495a5a83121eda0136d9d0e02636179ee0a.png",
+                        "x16-0f1aec6cbb9b043768fb7f671758daf74a05322f4c7807d1000462822b66ef3c.png",
+                        "x17-8ab30dd15df0a6cf174a0faccff3f2866b04b337277e6d4cb0c9c097f22e9758.png",
+                        "x18-37c8d69fc1d6ba9a5408fa38f60725039dfa4c4535f4cb8a9666de5aa2c0aacb.png",
+                        "x19-623c9b791b4025acab8a1245c044001e668107b4f39f85b2103e266fbf10ac8e.png",
+                        "x20-c7ba792d94d64d77b3ff4ef89ae4cfd395c5f62d5511545084ead47071478a31.png",
+                        "x21-e0c8f240af445e427d617f5217ba5c93a923e0d21477016a3b732c93fd14f2dc.png"
+                    ],
+                    "dataSaver": [
+                        "x1-fe6f58af58258a5652406606c23f4505ff29f9b05c33abb398ae63114b7843f1.jpg",
+                        "x2-432a48974c92e04d130badf2161037f4a35be60f6c92a8c96ef9fbc43e9608b6.jpg",
+                        "x3-6788ff55adf2f1383d4ae0cc2bef2f8b478f21064f1818b6537bb775f7028640.jpg",
+                        "x4-c9522a6cefffd48d472da00bd499810957eaec8ffacfc5902652f5ad916271b1.jpg",
+                        "x5-4fc7d94022a0f7433262bd6ec93e9b38509645c0fccaae591af904ebab085b72.jpg",
+                        "x6-ac1c82b9f1e151fba568edd3bbb8c2da5c315e25994e73fe682280a8d2c2fa19.jpg",
+                        "x7-bfcb1a04bf09d41a6afe9b022d0a6c62e9c09f4ea97c9b847336b750ddc18ed2.jpg",
+                        "x8-96674781fa9afbc5e0b54b2d71aa59f8d18a580d1d1ab7cbfde78213f347d7bb.jpg",
+                        "x9-13bfc7c63eccf56fe608fb33170e00f56d995002dcf787e05216f1e9b20ab8ef.jpg",
+                        "x10-86b2e4a869980369108461b1ae6aca7a34423f60b4950f414fb2f67b222f976e.jpg",
+                        "x11-a601ecee1a389c7a0665c3e622a41117ab259439e073c9ef3d96be6d719196ed.jpg",
+                        "x12-0c77194b4dbef006a725f42a92c70139241de1b440ab685073173d5dcc755fed.jpg",
+                        "x13-fba332bbde4bffebf4eda90c07d7865bf1f5b3bcb9e0cadbac0804e1de6f4e51.jpg",
+                        "x14-ab87d83bf81f5ed0d6631ff9c61a22f94775fa943a03ddec6eff1b72a5f6cf13.jpg",
+                        "x15-993b8d3668262ea138cebbcedb8cb9286ff08cf78201066a18ebaf5d401c9e8b.jpg",
+                        "x16-81e95dbbcfc7cd06cf41edf812be226c5fa41de1449d63c9123fb4ecccb2b9bf.jpg",
+                        "x17-9f35a762eb268780c68fbb97f0c9dfba044f54fa870e14ae3ba2cdacafefe4d9.jpg",
+                        "x18-db0f409d0431fc177c48de02f57229d8d98040328b0f4ae0d1346f7782ea237a.jpg",
+                        "x19-6a014a6574ed792b2a3ffa4b64369867f5b97c15aabfab2c5a13926838058793.jpg",
+                        "x20-6d6cdbcd0be75c59416c92a06c633de82fda7531838322552ac1979087dd2eeb.jpg",
+                        "x21-b2624c655d5d7ad4a27e889d413a4a9e15853bbf6346be310270259c805b80ce.jpg"
+                    ],
+                    "publishAt": "2018-01-20T16:49:31+00:00",
+                    "createdAt": "2018-01-20T16:49:31+00:00",
+                    "updatedAt": "2018-01-20T16:49:31+00:00",
+                    "version": 1
+                }
+            },
+            "relationships": [
+                {
+                    "id": "f19ee895-ecd8-4061-a655-3d8f5c3aa7df",
+                    "type": "scanlation_group"
+                },
+                {
+                    "id": "a2febd3e-6252-46eb-bd63-01d51deaaec5",
+                    "type": "manga"
+                },
+                {
+                    "id": "5a522f9e-317f-40e9-8cf5-603b0e209731",
+                    "type": "user"
+                }
+            ]
+        }
+    ],
+    "limit": 10,
+    "offset": 0,
+    "total": 236
+}

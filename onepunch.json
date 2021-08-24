@@ -1,0 +1,104 @@
+{
+    "results": [
+        {
+            "result": "ok",
+            "data": {
+                "id": "d0df8c5e-62d1-4f5f-b225-9ebd2c204022",
+                "type": "chapter",
+                "attributes": {
+                    "volume": "24",
+                    "chapter": "116",
+                    "title": "Capitolo 116 - Impostore",
+                    "translatedLanguage": "it",
+                    "hash": "85c036469cdbbc406d2e37a537d16fdb",
+                    "data": [
+                        "1-6825161126c6b24dcc29eb2396a4580f48701bfd50bd53ecc01b0216f117df59.png",
+                        "2-3981c4281a95b961ff27c412d7eb7b6da306d8f97791ea606454db8b6b328241.png",
+                        "3-d76909fe76713738dbdee8b865dc786714db02bc1cf3f3a74dd6a9518286c97e.png",
+                        "4-5b7e5c8d655c6cd4e8963b6429dab8752fe4c929ce7434fc1c082939660eb5e0.png",
+                        "5-e9414f542668c4075672d845d023228b4d2dace2a5980d9579a8b7c9b2db5c91.png",
+                        "6-e2525a658d766a589c599674d1cf905445c6a15cdc7cdb15e1bc3e0cf31a0c66.png",
+                        "7-204af4a5c50b1153df92fee53ad6ab4d21b7d7a1ca7492e8780184f4d163204b.png",
+                        "8-705bdd45dd914b29e539f15e64146ed0f0be2ed359c7dd474bec7d71ecb1e8bb.png",
+                        "9-95baf0493b6298c5a1416d6fcac636612a25c225c8d54ba48e85c4a417134ec1.png",
+                        "10-b97a493df258ec78fe5c7e159eab72fb476fdcd7a450ed2257459b6e05425acc.png",
+                        "11-b37b318163fe612776d773061b54bfc397dd8f20edaccbdfcdbc1407f38460bb.png",
+                        "12-cf9197411987a49b876d6c65a9f3ab75b3f9391701d201b665b5eae6246ba329.png",
+                        "13-5a25cd9b21842be089835484f931e7ed6dfd75a07c11384de9a8988ffceebe30.png",
+                        "14-12a058a6079b5424fd6f59e646a5ead74e7049d1e6dc26061ed8a649aa670949.png",
+                        "15-1d780d516aa27dbb85c6d6c34aed36643fb293b845ae9f77304cb20b8277b44c.png",
+                        "16-e4ea86695632ff83f27f8a90b8f01d793b0d26732b72cf41bdf5d6bb8c59cd1d.png",
+                        "17-bcadb285ad73320b11a3d4f168cb1f50b029b66e5b85e269dda7f714d083e332.png",
+                        "18-9d07435c5fa1469d705db2e874350c83253ae18016d1143977816f0a091bdeb5.png",
+                        "19-ed206de30410ca3938f92d7352aca28065658dbe990e8f0773320ada0c61f78e.png",
+                        "20-1bc5a55c54efcef90790123261bde5c3dda7104e963b4dd25b3927228bd86b20.png",
+                        "21-effe8cfaa9840f47aa25db47a40304a709344800cbe1eed91e14b571feba4135.png",
+                        "22-806578842ef00eb5e2c8bcb7b027140af33aa2f3a17982e9a3c5aa1ef84f120c.png",
+                        "23-0c5bec0fe62a57b2d76332c987774373bc5b54614672dfc5db9769fce27839cb.png",
+                        "24-edf55a598dec188e1399b790e67690152c0c4816f5e9c686a405b06abbc3be78.png",
+                        "25-59e0d418d2e3a306eedb64a7ea594cc72d9972c449d7d677ffa56dddfbf07091.png",
+                        "26-e12bb52572f623498181b53227a1d3aedaaadb702c2447b11510e3fecb0219f3.png",
+                        "27-442b802d73daac81abfad0bed9c3ec11c7c7dd0f217f1e5d9af23734ce262d82.png",
+                        "28-c85b10f5c2fde80a193f8fc4bfe90d6cb5f28217a33b8f9f342e0758350c0921.png",
+                        "29-4a7aa3cfbdced3581d25e7bd982a9cd54cdb204eb3edcc789197d98044fca9ed.png",
+                        "30-3981c4281a95b961ff27c412d7eb7b6da306d8f97791ea606454db8b6b328241.png"
+                    ],
+                    "dataSaver": [
+                        "1-e8262523d82b007f7a63f9009242d96d6c41ab57f2ff14b26ccd58f854e5a8c2.jpg",
+                        "2-68b9c8d6ab180efa9d218c0d8d7054d1f19c7ae467cfd585a03550fc2b798502.jpg",
+                        "3-335ea7a9f9ecd7dd869cb8c9d4c43ed6099c57cbdb85d54410f8b8978d3d8294.jpg",
+                        "4-2337e882cd86f0af4606b0c8f6eb3b39e84deafb87ce5fa49180130dd7583c73.jpg",
+                        "5-0f19af9ec1ba56e052b027173e226b44327ea9ced296329fea38c8463297cc7f.jpg",
+                        "6-3cdca6a67ca143f67112ff1e77ef386159a593856078abbb901dfd9eab9be25f.jpg",
+                        "7-ca2b71f336fff82755365cece346498e6d61fde2c14b573ce4744362f809c924.jpg",
+                        "8-6fd51f23bb4f229d7f041684fa22f1c15f34e1693dcdad5802c373820ea07f51.jpg",
+                        "9-6e6909f3bbf5c4bd481728d9e9359cd74dc5b94300a08e02365711563eae5429.jpg",
+                        "10-a56fdb5cfa60dd7487339e4733c1058d130baa3ba3b155ce09a81f44b8785ce1.jpg",
+                        "11-323592b077cab45f68810e768bdb21cd747ba72ba7afb6bc94248cc690120558.jpg",
+                        "12-9ed23426db4e494f74fe69ee9f2d5a8f8bde47d221e1f68db1cc0395cfe73dce.jpg",
+                        "13-03d0c0fe9f5945c5ede60d5873d51e1c12103d8d98d3649ea31c2bd9501c23b1.jpg",
+                        "14-7c5f035b927b96912e71a836ca9ad2a7535f01be76cddece5a9adc7ea26d4223.jpg",
+                        "15-c06dd74a71374037b7878919919b02a06565da418f20e4f3d62dcd7277dec433.jpg",
+                        "16-bff6a1d3da1afc19ab2c8607950bd36f8223edd12c8e9392d59663bc2a6b69e8.jpg",
+                        "17-5e8adde899494c23f646fa1aafdf574114789fd4243a1c15169c3aadfc1d7192.jpg",
+                        "18-392f1edef946b479cf2b2fbf732512fa28b8df290cc78ea44d88c23ec72fce8f.jpg",
+                        "19-c924bdc867052831cded5fe218ec49e6495d0baed3bf70c0ae68b97180528360.jpg",
+                        "20-945c98c77f6dd0636abee7ddfdc8e513b9cb85bf104ebf68a180789e5ff90d40.jpg",
+                        "21-6270da0854b8c40d75b75dc7df0ffa948205583e04a325264787c83d25a5a0c1.jpg",
+                        "22-02bcd61ffdd878c440bc9aa5bb1d351af35dd2904a1250d192e34f5b3047148a.jpg",
+                        "23-2a72cab3ca53889331f851ff385b670294c4807d84baf908a8dc6099d629c293.jpg",
+                        "24-fca26dc42122d2ce490f396fe868dfcbd32f32ed1f35cad0c296589eecae9ff3.jpg",
+                        "25-ecd58b750d9a2388920299ba4a94d53394a733ca2569a98ca13260ad50f1c218.jpg",
+                        "26-44ce621e56240d23304a98521f8db87f4b4649bca31a057abc53ddbd2cf43531.jpg",
+                        "27-c3a23dc85cc54edd0b7666c5da425a2fdc6a093b23c589d6a3128efac222037c.jpg",
+                        "28-d20e40697a8f0b50de9cfc002c583231c17fdd47150189684267d174861bc15a.jpg",
+                        "29-f5ed984b0cdfbacd02c0b4a57e2f5c415605fe5321cb760c3c2cac866aff825d.jpg",
+                        "30-68b9c8d6ab180efa9d218c0d8d7054d1f19c7ae467cfd585a03550fc2b798502.jpg"
+                    ],
+                    "externalUrl": null,
+                    "publishAt": "2021-08-11T12:17:19+00:00",
+                    "createdAt": "2021-08-11T12:17:19+00:00",
+                    "updatedAt": "2021-08-11T12:17:32+00:00",
+                    "version": 3
+                }
+            },
+            "relationships": [
+                {
+                    "id": "1888bb74-5a7d-4ed7-87a9-77c0c94dd900",
+                    "type": "scanlation_group"
+                },
+                {
+                    "id": "d8a959f7-648e-4c8d-8f23-f1f3f8e129f3",
+                    "type": "manga"
+                },
+                {
+                    "id": "3b445149-6af7-40f4-bd36-63078b9a9743",
+                    "type": "user"
+                }
+            ]
+        }
+    ],
+    "limit": 10,
+    "offset": 0,
+    "total": 1
+}
