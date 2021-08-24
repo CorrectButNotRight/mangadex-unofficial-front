@@ -1,0 +1,56 @@
+* MD Front End
+** First test
+- [X] register with a MD home server
+- [ ] access token
+- [X] search for manga id
+- [X] get chapter info from a hard-coded manga id
+- [X] get chapter pages (as images)
+** Crucial features
+- [X] Latest updates
+- [X] Log in as user
+- [ ] User settings
+- [ ] Follow manga
+- [ ] Manage lists
+- [ ] Manage manga status
+- [ ] Top manga
+- [ ] More search features
+- [X] Blacklisted tags
+- [X] List of available tags (/manga/tag)
+- [ ] User settings (or could just link to MD)
+- [X] English only boissss
+** Front end pages
+- Manga overview
+  - Follow UI
+  - Chapter list
+    - API request limited to 100 (break up the reqs)
+- Search results
+- Homepage
+  - Latest updates
+- Reading
+  - Chapter select
+  - Vertical scrolling only (for now...?)
+** Global objects
+- Home
+- Search
+  - Tags
+- User (login/logout)
+** Steps
+1. [X] Test API
+2. [ ] Choose and understand framework
+3. [ ] Collaborate on a single page (search?)
+4. [ ] Divide and conquer
+* Development
+** Comments
+- input/output
+- function desription
+- side effects??
+** Language
+- TS vs JS
+- SASS, CSS
+** Git
+- branches vs forks (branches for this)
+- commit frequency (idc rn)
+- pipeline tests
+** Considerations
+- Error-handling
+- Timeouts
