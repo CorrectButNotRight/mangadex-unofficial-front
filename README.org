@@ -4,7 +4,6 @@ the planning stage.
 * Brainstorm
 ** First test
 - [X] register with a MD home server
-- [ ] access token
 - [X] search for manga id
 - [X] get chapter info from a hard-coded manga id
 - [X] get chapter pages (as images)
