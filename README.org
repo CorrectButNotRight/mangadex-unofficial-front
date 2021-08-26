@@ -1,6 +1,12 @@
 Unofficial front end for Mangadex. This project aims to provide a simpler
 Mangadex interface with better access for chapters. Development is currently in
 the planning stage.
+* Design
+** React components
+- Banner (including search bar)
+- Manga 
+** Home page
+
 * Brainstorm
 ** First test
 - [X] register with a MD home server
@@ -26,6 +32,8 @@ the planning stage.
   - Follow UI
   - Chapter list
     - API request limited to 100 (break up the reqs)
+  - Cover image (get from latest volume)
+  - Convert BBCode into HTML
 - Search results
 - Homepage
   - Latest updates
@@ -42,7 +50,7 @@ the planning stage.
 2. [ ] Choose and understand framework
 3. [ ] Collaborate on a single page (search?)
 4. [ ] Divide and conquer
-* Development
+* Development Notes
 ** Comments
 - input/output
 - function desription
