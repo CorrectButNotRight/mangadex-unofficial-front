@@ -22,7 +22,7 @@ export default function MangaDescription({ uuid }: { uuid: string }) {
     })
     .catch(e => {
       setTimeout(() => {
-        if(content === "") {
+        if(description === "") {
           setDescription("Description not found");
         }
       }, ERROR_TIMEOUT);
