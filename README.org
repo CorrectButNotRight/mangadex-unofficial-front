@@ -1,12 +1,15 @@
 Unofficial front end for Mangadex. This project aims to provide a simpler
 Mangadex interface with better access for chapters. Development is currently in
 the planning stage.
+* TODO
+- [ ] implement rate limit checks
+- [ ] create static site with CSS styling
+- [ ] get list of all chapters
 * Design
 ** React components
 - Banner (including search bar)
 - Manga 
 ** Home page
-
 * Brainstorm
 ** First test
 - [X] register with a MD home server

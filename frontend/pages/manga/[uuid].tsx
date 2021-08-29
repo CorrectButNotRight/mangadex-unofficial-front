@@ -7,12 +7,12 @@ import { ERROR_TIMEOUT } from '~/lib/constants.ts'
 
 // Generate contents of page from a successful fetch
 function generateSuccessContent(uuid: string) {
-    //<MangaDescription uuid={uuid}/>
-    //<MangaCover uuid={uuid}/>
-  const toReturn = (
-    <MangaCover uuid={uuid}/>
+  return (
+    <div>
+      <MangaDescription uuid={uuid}/>
+      <MangaCover uuid={uuid}/>
+    </div>
   );
-  return toReturn;
 }
 
 //XXX Generate error message (could yoink and make generic)
