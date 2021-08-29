@@ -8,11 +8,11 @@ import { useState } from 'react'
 //   - callback: function that uses JSON as input and performs side effects
 // Output
 //   None
-export default function jsonFetch(url: string, callback: (any) => void) {
+export default function jsonFetch(url: string, callback: (any) => void, errorHandler: (any) => void) {
   fetch(url)
     .then(response => response.json())
     .then(callback)
-    .catch(err => {
-      console.error(err);
-    });
+    .catch(errorHandler);
 }
+
+//TODO timeout handler for responses
