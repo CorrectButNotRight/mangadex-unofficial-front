@@ -10,7 +10,7 @@ function generateSuccessContent(uuid: string) {
     //<MangaDescription uuid={uuid}/>
     //<MangaCover uuid={uuid}/>
   const toReturn = (
-    <MangaDescription uuid={uuid}/>
+    <MangaCover uuid={uuid}/>
   );
   return toReturn;
 }

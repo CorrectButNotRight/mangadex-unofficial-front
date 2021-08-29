@@ -1,68 +1,50 @@
 import React, { useState } from 'react'
-import { FETCH_LIMIT } from '~/lib/constants.ts'
+import { FETCH_LIMIT, COVER_BASE_URL } from '~/lib/constants.ts'
 
 
 async function getCover(uuid: string) {
   let response = await fetch('https://api.mangadex.org/cover?manga[]=' + uuid);
-  let jsonData = response.json();
+  let jsonData = await response.json();
   /* .then(jsonData => parseInt(jsonData.total, 10)); */
   const total = parseInt(jsonData.total, 10);
   let tempVolume = [-1, "getCover"];
+  // let [tempVolume, setTempVolume] = useState([-1, "getCover"]);
+  
+  //XXX block seems to work, expand on this
+  // response = await fetch('https://api.mangadex.org/cover?limit=' + FETCH_LIMIT + '&manga[]=' + uuid);
+  // jsonData = await response.json();
+  // // parseInt(jsonData.results[0].data.attributes.volume, 10);
+  // tempVolume[0] = parseInt(jsonData.results[0].data.attributes.volume, 10);
+  // tempVolume[1] = jsonData.results[0].data.attributes.fileName;
 
-  //TODO get this block working
-  response = await fetch('https://api.mangadex.org/cover?limit=' + FETCH_LIMIT + '&manga[]=' + uuid);
-  jsonData = response.json();
-  tempVolume[0] = parseInt(jsonData.results[0].data.attributes.volume, 10);
-  tempVolume[1] = jsonData.results[0].data.attributes.fileName;
+  // let vol = parseInt(jsonData.results[0].data.attributes.volume, 10);
+  // let filename = jsonData.results[0].data.attributes.fileName;
+  // setTempVolume([vol, filename]);
 
-  /* const [tempVolume, setTempVolume] = useState([-1, ""]); */
-  // for(let i=0; i<total; i+=FETCH_LIMIT) { // Due to API fetch limits
-  //   const response = await fetch('https://api.mangadex.org/cover?limit=' + FETCH_LIMIT + '&manga[]=' + uuid);
-  //   /* .then(response => response.json()) */
-  //   const jsonData = response.json();
-  //   tempVolume[0] = parseInt(jsonData.results[0].data.attributes.volume, 10);
-  //   tempVolume[1] = jsonData.results[0].data.attributes.fileName;
-  //   // for(let j=0; j<jsonData.results.length; j++) { // Iterate over all results returned from our fetch
-  //   //   if(jsonData.results[j].data.attributes.volume !== null) {
-  //   //     if(parseInt(jsonData.results[j].data.attributes.volume, 10) > tempVolume[0]) {
-  //   //       /* setTempVolume([parseInt(jsonData.results[j].data.attributes.volume, 10), jsonData.results[j].data.attributes.fileName]); */
-  //   //       /* tempVolume = [parseInt(jsonData.results[j].data.attributes.volume, 10), jsonData.results[j].data.attributes.fileName]; */
-  //   //       tempVolume[0] = parseInt(jsonData.results[j].data.attributes.volume, 10);
-  //   //       tempVolume[1] = jsonData.results[j].data.attributes.fileName;
-  //   //     }
-  //   //   }
-  //   //   else if(tempVolume[0] === -1) {
-  //   //     /* setTempVolume([0, jsonData.results[j].data.attributes.fileName]); */
-  //   //     tempVolume = [0, jsonData.results[j].data.attributes.fileName];
-  //   //   }
-  //   // }
+  for(let i=0; i<total; i+=FETCH_LIMIT) { // Due to API fetch limits
+    const response = await fetch('https://api.mangadex.org/cover?limit=' + FETCH_LIMIT + '&manga[]=' + uuid);
+    /* .then(response => response.json()) */
+    const jsonData = await response.json();
+    // tempVolume[0] = parseInt(jsonData.results[0].data.attributes.volume, 10);
+    // tempVolume[1] = jsonData.results[0].data.attributes.fileName;
 
-  //   //  .then(jsonData => {
-  //   //    for(let j=0; j<jsonData.results.length; j++) { // Iterate over all results returned from our fetch
-  //   //      if(jsonData.results[j].data.attributes.volume !== null) {
-  //   //        if(parseInt(jsonData.results[j].data.attributes.volume, 10) > tempVolume[0]) {
-  //   //          setTempVolume([parseInt(jsonData.results[j].data.attributes.volume, 10), jsonData.results[j].data.attributes.fileName]);
-  //   //          /* tempVolume = [parseInt(jsonData.results[j].data.attributes.volume, 10), jsonData.results[j].data.attributes.fileName]; */
-  //   //        }
-  //   //      }
-  //   //      else if(tempVolume[0] === -1) {
-  //   //        setTempVolume([0, jsonData.results[j].data.attributes.fileName]);
-  //   //        /* tempVolume = [0, jsonData.results[j].data.attributes.fileName]; */
-  //   //      }
-  //   //    }
-  //   //    /* jsonData.results.forEach((obj) => {
-  //   //     *   if(obj.data.attributes.volume !== null) {
-  //   //     *     if(parseInt(obj.data.attributes.volume, 10) > tempVolume[0]) {
-  //   //     *       setTempVolume([parseInt(obj.data.attributes.volume, 10), obj.data.attributes.fileName]);
-  //   //     *     }
-  //   //     *   }
-  //   //     *   else if(tempVolume[0] === -1) {
-  //   //     *     setTempVolume([0, obj.data.attributes.fileName]);
-  //   //     *   }
-  //   //     * }); */
-  //   //  });
-  // }
-  return tempVolume;
+    //TODO make this work!
+    for(let j=0; j<jsonData.results.length; j++) { // Iterate over all results returned from our fetch
+      if(jsonData.results[j].data.attributes.volume !== null) {
+        if(parseInt(jsonData.results[j].data.attributes.volume, 10) > tempVolume[0]) {
+          /* setTempVolume([parseInt(jsonData.results[j].data.attributes.volume, 10), jsonData.results[j].data.attributes.fileName]); */
+          /* tempVolume = [parseInt(jsonData.results[j].data.attributes.volume, 10), jsonData.results[j].data.attributes.fileName]; */
+          tempVolume[0] = parseInt(jsonData.results[j].data.attributes.volume, 10);
+          tempVolume[1] = jsonData.results[j].data.attributes.fileName;
+        }
+      }
+      else if(tempVolume[0] === -1) {
+        /* setTempVolume([0, jsonData.results[j].data.attributes.fileName]); */
+        tempVolume = [0, jsonData.results[j].data.attributes.fileName];
+      }
+    }
+  }
+  return tempVolume[1];
 }
 
 //TODO figure out how to loop async data
@@ -70,17 +52,22 @@ async function getCover(uuid: string) {
 // Inputs
 // - uuid: valid manga uuid
 export default function MangaCover({ uuid }: { uuid: string }) {
-  const [volumePair, setVolumePair] = useState([-1, "MangaCover"]);
+  /* const [volumePair, setVolumePair] = useState([-1, "MangaCover"]); */
   /* const [tempVolume, setTempVolume] = useState([-1, ""]); */
   /* const [counter, setCounter] = useState(0);
    * const [total, setTotal] = useState(0); */
+  const [fileurl, setFileurl] = useState("");
 
-  /* getCover(uuid)
-   *   .then(pair => {
-   *     setVolumePair([pair[0], pair[1]]);
-   *   })
-   *   .catch(e => console.error(e));
-   */
+
+  getCover(uuid)
+    .then(filename => {
+      setFileurl(COVER_BASE_URL + '/covers/' + uuid + '/' + filename);
+    })
+    .catch(e => {
+      setFileurl("error!");
+    });
+  
+
   // fetch('https://api.mangadex.org/cover?manga[]=' + uuid)
   //   .then(response => response.json())
   //   .then(jsonData => { // Fetch #1 to find out total results
@@ -147,6 +134,6 @@ export default function MangaCover({ uuid }: { uuid: string }) {
   //   });
   
   return (
-    <p>{volumePair[0]} {volumePair[1]}</p>
+    <img src={fileurl}/>
   )
 }
