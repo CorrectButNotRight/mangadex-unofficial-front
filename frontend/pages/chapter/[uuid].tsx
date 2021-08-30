@@ -1,8 +1,6 @@
 import React, { useState, useEffect } from 'react'
 import MangaBanner from '~/components/banner.tsx'
-import MangaDescription from '~/components/manga-description.tsx'
-import MangaCover from '~/components/manga-cover.tsx'
-import MangaChapters from '~/components/manga-chapters.tsx'
+import ChapterImages from '~/components/chapter-images.tsx'
 import { useParams } from '~/lib/useRouter.ts'
 import { API_BASE_URL } from '~/lib/constants.ts'
 
@@ -10,9 +8,7 @@ import { API_BASE_URL } from '~/lib/constants.ts'
 function generateSuccessContent(uuid: string) {
   return (
     <>
-      <MangaDescription uuid={uuid}/>
-      <MangaCover uuid={uuid}/>
-      <MangaChapters uuid={uuid}/>
+      <ChapterImages uuid={uuid}/>
     </>
   );
 }
@@ -20,24 +16,23 @@ function generateSuccessContent(uuid: string) {
 //XXX Generate error message (could yoink and make generic)
 function generateErrorContent() {
   return (
-    <h2>Manga doesn't exist.</h2>
+    <h2>Chapter doesn't exist.</h2>
   );
 }
 
-// Manga overview component
-export default function MangaOverview() {
+export default function Chapter() {
   const uuid = useParams().uuid;
   const [content, setContent] = useState("");
-
+  
   useEffect(() => {
-    fetch(API_BASE_URL + '/manga/' + uuid)
+    fetch(API_BASE_URL + '/chapter?ids[]=' + uuid)
       .then(response => {
         return response.ok
              ? Promise.resolve(response.json())
              : Promise.reject("Response not ok");
       })
       .then(jsonData => {
-        if(jsonData.result != "ok") {
+        if(jsonData.results.length == 0 || jsonData.results[0].result != "ok") {
           throw "JSON not ok";
         }
         setContent(generateSuccessContent(uuid));
