@@ -11,6 +11,24 @@ async function getGroupNames(groupIds: object) {
   return groupMap;
 }
 
+// getUpdateList(reqSize, offset) this function consumes 'request size' and 'offset' then returns the 'recent update' list
+// Int Int -> String[]
+// Note: output example [{uuid}, manga name, {uuid}, manga name,...]
+//       offset goes up by 1 everytime, index at 0, defaults to 0
+// Assume: 0 < reqSize <= 100
+//         0 <= offset
+export async function getUpdateList(reqSize, offset=0) { // Note that we will need to add more parameters later to exclude results (ie. exclude tags (I see chinese I get cancer))
+  let response = await fetch(API_BASE_URL + "manga?limit=" + reqSize + "&order[latestUploadedChapter]=desc&offset=" + (offset + 1));
+  let jsonData = await response.json();
+  const updateArray = []
+  for (let i=0; i<((offset + 1)*reqSize); i+=1) {
+    const data = jsonData.results[i].data
+    updateArray.push(data.id);
+    updateArray.push(data.attributes.title);
+  }
+  return updateArray
+}
+
 export async function getChapterList(uuid: string) {
   // Empty request to get total chapters
   let response = await fetch(API_BASE_URL + '/chapter?limit=' + 0 + '&manga=' + uuid + '&translatedLanguage[]=en');
