@@ -4,7 +4,10 @@ the planning stage.
 * TODO
 - [ ] implement rate limit checks
 - [ ] create static site with CSS styling
-- [ ] get list of all chapters
+- [X] get list of all chapters
+- [X] get chapter images
+- [ ] get latest updates
+- [ ] search page
 * Design
 ** React components
 - Banner (including search bar)
