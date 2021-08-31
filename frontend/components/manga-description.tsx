@@ -1,6 +1,5 @@
 import React, { useState, useEffect } from 'react'
-import jsonFetch from '~/lib/fetch.ts'
-import { API_BASE_URL } from '~/lib/constants.ts'
+import { apiFetch } from '~/lib/fetch.ts'
 
 export default function MangaDescription({ uuid }: { uuid: string }) {
   // Init a React state for 'description' and define how to modify it
@@ -8,7 +7,7 @@ export default function MangaDescription({ uuid }: { uuid: string }) {
 
   // JS fetch
   useEffect(() => {
-    fetch(API_BASE_URL + '/manga/' + uuid)
+    apiFetch('/manga/' + uuid)
       .then(response => {
         if(!response.ok) {
           throw "Response not ok"

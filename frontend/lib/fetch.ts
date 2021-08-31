@@ -1,18 +1,19 @@
 import { useState } from 'react'
+import { API_BASE_URL } from '~/lib/constants.ts'
+import throttle from 'fetch-throttle'
 
-// Consider making a textFetch function
+const apiThrottle = throttle(fetch, 5, 1000);
+const imageThrottle = throttle(fetch, 20, 1000);
+const homeThrottle = throttle(fetch, 40, 60000);
 
-// jsonFetch performs a GET request on a URL and processes the response as JSON
-// Inputs
-//   - url: the URL to perform a GET request on
-//   - callback: function that uses JSON as input and performs side effects
-// Output
-//   None
-export default function jsonFetch(url: string, callback: (any) => void, errorHandler: (any) => void) {
-  fetch(url)
-    .then(response => response.json())
-    .then(callback)
-    .catch(errorHandler);
+export async function apiFetch(endpoint: string) {
+  return apiThrottle(API_BASE_URL + endpoint);
 }
 
-//TODO timeout handler for responses
+export async function imageFetch(url: string) {
+  return imageThrottle(url);
+}
+
+export async function homeFetch(uuid: string) {
+  return homeThrottle(API_BASE_URL + '/at-home/server/' + uuid);
+}
