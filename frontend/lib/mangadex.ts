@@ -1,9 +1,10 @@
-import { API_BASE_URL, FETCH_LIMIT } from '~/lib/constants.ts'
+import { FETCH_LIMIT } from '~/lib/constants.ts'
+import { apiFetch, homeFetch } from '~/lib/fetch.ts'
 
 async function getGroupNames(groupIds: object) {
   const groupMap = new Map();
   for(let uuid of groupIds) {
-    const response = await fetch(API_BASE_URL + '/group?limit=1&ids[]=' + uuid);
+    const response = await apiFetch('/group?limit=1&ids[]=' + uuid);
     const jsonData = await response.json();
     const groupName = jsonData.results[0].data.attributes.name;
     groupMap.set(uuid, groupName);
@@ -31,13 +32,13 @@ export async function getUpdateList(reqSize, offset=0) { // Note that we will ne
 
 export async function getChapterList(uuid: string) {
   // Empty request to get total chapters
-  let response = await fetch(API_BASE_URL + '/chapter?limit=' + 0 + '&manga=' + uuid + '&translatedLanguage[]=en');
+  let response = await apiFetch('/chapter?limit=' + 0 + '&manga=' + uuid + '&translatedLanguage[]=en');
   let jsonData = await response.json();
   const total = parseInt(jsonData.total, 10);
 
   const promiseArray = [];
   for(let i=0; i<total; i+=FETCH_LIMIT) { // Due to API fetch limits
-    const response = await fetch(API_BASE_URL + '/chapter?limit=' + FETCH_LIMIT + '&offset=' + i + '&manga=' + uuid + '&translatedLanguage[]=en');
+    const response = await apiFetch('/chapter?limit=' + FETCH_LIMIT + '&offset=' + i + '&manga=' + uuid + '&translatedLanguage[]=en');
     promiseArray.push(response.json());
   }
   
@@ -95,14 +96,14 @@ export async function getChapterList(uuid: string) {
 
 export async function getCover(uuid: string) {
   // Empty request to get total covers
-  let response = await fetch(API_BASE_URL + '/cover?limit=' + 0 + '&manga[]=' + uuid);
+  let response = await apiFetch('/cover?limit=' + 0 + '&manga[]=' + uuid);
   let jsonData = await response.json();
   const total = parseInt(jsonData.total, 10);
   const tempVolume = [-1, "getCover"];
 
   const promiseArray = [];
   for(let i=0; i<total; i+=FETCH_LIMIT) { // Due to API fetch limits
-    const response = await fetch(API_BASE_URL + '/cover?limit=' + FETCH_LIMIT + '&offset=' + i + '&manga[]=' + uuid);
+    const response = await apiFetch('/cover?limit=' + FETCH_LIMIT + '&offset=' + i + '&manga[]=' + uuid);
     promiseArray.push(response.json());
   }
   
@@ -130,11 +131,11 @@ export async function getCover(uuid: string) {
 }
 
 export async function getChapterImages(uuid: string) {
-  let response = await fetch(API_BASE_URL + '/at-home/server/' + uuid);
+  let response = await homeFetch(uuid);
   let jsonData = await response.json();
   const fileurl = jsonData.baseUrl;
 
-  response = await fetch(API_BASE_URL + '/chapter?limit=1&ids[]=' + uuid);
+  response = await apiFetch('/chapter?limit=1&ids[]=' + uuid);
   jsonData = await response.json();
   const attributes = jsonData.results[0].data.attributes;
   const hash = attributes.hash;

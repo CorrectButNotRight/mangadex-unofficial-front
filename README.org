@@ -2,7 +2,8 @@ Unofficial front end for Mangadex. This project aims to provide a simpler
 Mangadex interface with better access for chapters. Development is currently in
 the planning stage.
 * TODO
-- [ ] implement rate limit checks
+- [X] implement rate limit checks
+- [ ] limit image rendering rate
 - [ ] create static site with CSS styling
 - [X] get list of all chapters
 - [X] get chapter images
