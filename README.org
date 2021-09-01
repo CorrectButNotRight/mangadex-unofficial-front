@@ -9,11 +9,7 @@ the planning stage.
 - [X] get chapter images
 - [ ] get latest updates
 - [ ] search page
-* Design
-** React components
-- Banner (including search bar)
-- Manga 
-** Home page
+- [ ] shrink manga cover
 * Brainstorm
 ** First test
 - [X] register with a MD home server
@@ -62,12 +58,8 @@ the planning stage.
 - function desription
 - side effects??
 ** Language
-- TS vs JS
-- SASS, CSS
-** Git
-- branches vs forks (branches for this)
-- commit frequency (idc rn)
-- pipeline tests
+- TS
+- CSS
 ** Considerations
 - Error-handling
 - Timeouts

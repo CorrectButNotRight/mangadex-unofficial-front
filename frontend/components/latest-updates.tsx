@@ -4,31 +4,31 @@ import MangaCover from '~/components/manga-cover.tsx'
 
 // generateListElements(updateList) This function consumes an update list and outputs manga cover and title list
 // [] -> []
-function generateListElements(updateList: String[]) {
+function generateListElements(updateList: string[]) {
   let latestUpdateDisplay=[]
   for(let i=0; i<(updateList.length); i+=2) {
-    latestUpdateDisplay.push(<MangaCover uuid={updateList[i]}/>);
-    latestUpdateDisplay.push(<p>{updateList[i+1]}</p>);
+    latestUpdateDisplay.push(
+      <li key={i}>
+        <MangaCover uuid={updateList[i]}/>
+        <p>{updateList[i+1]}</p>
+      </li>
+    );
   }
-  return (
-    <div>
-      {latestUpdateDisplay}
-    </div>
-  );
+  return latestUpdateDisplay;
 }
 
 // LatestUpdates() This function returns the manga cover and titles of the latest updates
 // None => []
 export default function LatestUpdates() {
-    const [updateList, setUpdateList] = useState([]);
-    useEffect(() => {
-        getUpdateList()
-          .then(chaptersList => {
-            setUpdateList(chaptersList);
-          })
-          .catch(e => {
-            console.error(e);
-          });
-      }, []);
-    return generateListElements(updateList);
+  const [updateList, setUpdateList] = useState([]);
+  useEffect(() => {
+    getUpdateList()
+      .then(chaptersList => {
+        setUpdateList(chaptersList);
+      })
+      .catch(e => {
+        console.error(e);
+      });
+  }, []);
+  return generateListElements(updateList);
 }

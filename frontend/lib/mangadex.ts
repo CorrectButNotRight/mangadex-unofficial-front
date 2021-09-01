@@ -19,15 +19,15 @@ async function getGroupNames(groupIds: object) {
 // Assume: 0 < reqSize <= 100
 //         0 <= offset
 export async function getUpdateList(reqSize, offset=0) { // Note that we will need to add more parameters later to exclude results (ie. exclude tags (I see chinese I get cancer))
-  let response = await fetch(API_BASE_URL + "manga?limit=" + reqSize + "&order[latestUploadedChapter]=desc&offset=" + (offset + 1));
+  let response = await apiFetch("/manga?limit=" + reqSize + "&order[latestUploadedChapter]=desc&offset=" + (offset + 1));
   let jsonData = await response.json();
-  const updateArray = []
+  const updateArray = [];
   for (let i=0; i<((offset + 1)*reqSize); i+=1) {
-    const data = jsonData.results[i].data
+    const data = jsonData.results[i].data;
     updateArray.push(data.id);
     updateArray.push(data.attributes.title);
   }
-  return updateArray
+  return updateArray;
 }
 
 export async function getChapterList(uuid: string) {
