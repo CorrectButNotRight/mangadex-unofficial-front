@@ -101,13 +101,12 @@ export async function getCover(uuid: string) {
   const total = parseInt(jsonData.total, 10);
   const tempVolume = [-1, "getCover"];
 
-  const promiseArray = [];
+  const fetchPromises = [];
   for(let i=0; i<total; i+=FETCH_LIMIT) { // Due to API fetch limits
-    const response = await apiFetch('/cover?limit=' + FETCH_LIMIT + '&offset=' + i + '&manga[]=' + uuid);
-    promiseArray.push(response.json());
+    fetchPromises.push(apiFetch('/cover?limit=' + FETCH_LIMIT + '&offset=' + i + '&manga[]=' + uuid).then(response => response.json()));
   }
-  
-  const jsonArray = await Promise.all(promiseArray);
+
+  const jsonArray = await Promise.all(fetchPromises);
   if(jsonArray[0].results.length === 0) {
     return Promise.reject("Cover not found");
   }
