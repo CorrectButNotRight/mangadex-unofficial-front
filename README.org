@@ -10,6 +10,7 @@ the planning stage.
 - [ ] get latest updates
 - [ ] search page
 - [ ] shrink manga cover
+- [ ] implement back end for database
 * Brainstorm
 ** First test
 - [X] register with a MD home server

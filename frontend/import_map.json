@@ -1,14 +1,15 @@
 {
   "imports": {
-    "aleph/": "https://deno.land/x/aleph@v0.3.0-beta.8/",
-    "aleph/types": "https://deno.land/x/aleph@v0.3.0-beta.8/types.d.ts",
-    "aleph/web": "https://deno.land/x/aleph@v0.3.0-beta.8/framework/core/mod.ts",
-    "aleph/react": "https://deno.land/x/aleph@v0.3.0-beta.8/framework/react/mod.ts",
-    "react": "https://esm.sh/react@17.0.2",
-    "react-dom": "https://esm.sh/react-dom@17.0.2",
-    "~/": "./",
+
     "react-banner": "https://esm.sh/react-banner@1.0.3",
-    "fetch-throttle": "https://esm.sh/fetch-throttle@0.1.0"
+    "fetch-throttle": "https://esm.sh/fetch-throttle@0.1.0",
+    "~/": "./",
+    "aleph/": "https://deno.land/x/aleph@v0.3.0-beta.10/",
+    "aleph/types": "https://deno.land/x/aleph@v0.3.0-beta.10/types.d.ts",
+    "aleph/web": "https://deno.land/x/aleph@v0.3.0-beta.10/framework/core/mod.ts",
+    "aleph/react": "https://deno.land/x/aleph@v0.3.0-beta.10/framework/react/mod.ts",
+    "react": "https://esm.sh/react@17.0.2",
+    "react-dom": "https://esm.sh/react-dom@17.0.2"
   },
   "scopes": {}
 }
