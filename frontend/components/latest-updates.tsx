@@ -7,14 +7,9 @@ import MangaCover from '~/components/manga-cover.tsx'
 function generateListElements(updateList: String[]) {
   let latestUpdateDisplay=[]
   for(let i=0; i<(updateList.length); i+=2) {
-    latestUpdateDisplay.push(<MangaCover uuid={updateList[i]}/>);
-    latestUpdateDisplay.push(<p>{updateList[i+1]}</p>);
+    latestUpdateDisplay.push(<li key={i}><MangaCover uuid={updateList[i]}/><p>{updateList[i+1]}</p></li>);
   }
-  return (
-    <div>
-      {latestUpdateDisplay}
-    </div>
-  );
+  return latestUpdateDisplay;
 }
 
 // LatestUpdates() This function returns the manga cover and titles of the latest updates
