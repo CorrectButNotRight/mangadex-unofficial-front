@@ -1,4 +1,4 @@
-import { FETCH_LIMIT } from '~/lib/constants.ts'
+import { FETCH_LIMIT , API_BASE_URL} from '~/lib/constants.ts'
 import { apiFetch, homeFetch } from '~/lib/fetch.ts'
 
 async function getGroupNames(groupIds: object) {
@@ -18,14 +18,14 @@ async function getGroupNames(groupIds: object) {
 //       offset goes up by 1 everytime, index at 0, defaults to 0
 // Assume: 0 < reqSize <= 100
 //         0 <= offset
-export async function getUpdateList(reqSize, offset=0) { // Note that we will need to add more parameters later to exclude results (ie. exclude tags (I see chinese I get cancer))
+export async function getUpdateList(reqSize=20, offset=0) { // Note that we will need to add more parameters later to exclude results (ie. exclude tags (I see chinese I get cancer))
   let response = await apiFetch("/manga?limit=" + reqSize + "&order[latestUploadedChapter]=desc&offset=" + (offset + 1));
   let jsonData = await response.json();
   const updateArray = [];
   for (let i=0; i<((offset + 1)*reqSize); i+=1) {
     const data = jsonData.results[i].data;
     updateArray.push(data.id);
-    updateArray.push(data.attributes.title);
+    updateArray.push(data.attributes.title.en);
   }
   return updateArray;
 }

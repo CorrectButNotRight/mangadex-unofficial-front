@@ -7,12 +7,7 @@ import MangaCover from '~/components/manga-cover.tsx'
 function generateListElements(updateList: string[]) {
   let latestUpdateDisplay=[]
   for(let i=0; i<(updateList.length); i+=2) {
-    latestUpdateDisplay.push(
-      <li key={i}>
-        <MangaCover uuid={updateList[i]}/>
-        <p>{updateList[i+1]}</p>
-      </li>
-    );
+    latestUpdateDisplay.push(<li key={i}><MangaCover uuid={updateList[i]}/><p>{updateList[i+1]}</p></li>);
   }
   return latestUpdateDisplay;
 }

@@ -1,5 +1,6 @@
 import React from 'react'
 import MangaBanner from '~/components/banner.tsx'
+import LatestUpdates from '~/components/latest-updates.tsx'
 
 export default function Home() {
   return (
@@ -10,10 +11,14 @@ export default function Home() {
       </head>
 
       <MangaBanner/>
-
+      
       <div className="App">
         <h1>Hello World!</h1>
         <li><a href="/manga/a96676e5-8ae2-425e-b549-7f15dd34a6d8">TEMPORARY LINK TO MANGA PAGE</a></li>
+      </div>
+      <div>
+        <h1>Not Hello!</h1>
+        <LatestUpdates/>
       </div>
     </div>
   );
