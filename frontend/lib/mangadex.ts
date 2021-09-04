@@ -100,6 +100,7 @@ export async function getCover(uuid: string) {
   let jsonData = await response.json();
   const total = parseInt(jsonData.total, 10);
   const tempVolume = [-1, "getCover"];
+  const nameExtension = '.512.jpg';
 
   const fetchPromises = [];
   for(let i=0; i<total; i+=FETCH_LIMIT) { // Due to API fetch limits
@@ -118,11 +119,11 @@ export async function getCover(uuid: string) {
       if(volume !== NaN) {
         if(volume > tempVolume[0]) {
           tempVolume[0] = parseInt(attributes.volume, 10);
-          tempVolume[1] = attributes.fileName;
+          tempVolume[1] = attributes.fileName + nameExtension;
         }
       }
       else if(tempVolume[0] === -1) {
-        tempVolume = [0, attributes.fileName];
+        tempVolume = [0, attributes.fileName + nameExtension];
       }
     }
   }
