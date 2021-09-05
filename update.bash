@@ -9,7 +9,7 @@ quoteSubst() {
 
 which aleph &>/dev/null
 if ! [[ $? -eq 0 ]] ; then
-    echo "Aleph binary not found, install aleph"
+    echo "Aleph binary not found, please install aleph"
     exit
 fi
 
@@ -28,3 +28,6 @@ CONTENT="$(cat $OLD/import_map_append.txt)"
 sed -i '/\"imports\":.*{/a \\n'"$(quoteSubst "$CONTENT")" $NEW/import_map.json
 
 rm -rf frontend-old
+
+git add $NEW/{import_map.json,vercel.json}
+git commit -m "UPDATE ALEPH VERSION $(aleph --version | head -n1)"
