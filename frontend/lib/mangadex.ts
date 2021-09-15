@@ -23,7 +23,7 @@ export async function getUpdateList(reqSize=20, offset=0) { // Note that we will
   let jsonData = await response.json();
   const updateArray = [];
   for (let i=0; i<((offset + 1)*reqSize); i+=1) {
-    const data = jsonData.results[i].data;
+    const data = jsonData.data[i];
     updateArray.push(data.id);
     updateArray.push(data.attributes.title.en);
   }

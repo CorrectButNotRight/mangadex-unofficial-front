@@ -7,10 +7,14 @@ the planning stage.
 - [ ] create static site with CSS styling
 - [X] get list of all chapters
 - [X] get chapter images
-- [ ] get latest updates
+- [X] get latest updates
 - [ ] search page
-- [ ] shrink manga cover
-- [ ] implement back end for database
+- [ ] shrink manga cover with CSS
+- [ ] user login and settings
+- [X] implement back end for database *XD no*
+- [ ] locally save blacklisted tags
+- [ ] banner component
+- [ ] mobile styling (media query)
 * Brainstorm
 ** First test
 - [X] register with a MD home server
