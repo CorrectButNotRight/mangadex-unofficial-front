@@ -25,14 +25,14 @@ export default function Chapter() {
   const [content, setContent] = useState("");
   
   useEffect(() => {
-    fetch(API_BASE_URL + '/chapter?ids[]=' + uuid)
+    apiFetch('/chapter?ids[]=' + uuid)
       .then(response => {
         return response.ok
              ? Promise.resolve(response.json())
              : Promise.reject("Response not ok");
       })
       .then(jsonData => {
-        if(jsonData.results.length == 0 || jsonData.results[0].result != "ok") {
+        if(jsonData.data.length == 0 || jsonData.result != "ok") {
           throw "JSON not ok";
         }
         setContent(generateSuccessContent(uuid));

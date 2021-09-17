@@ -6,7 +6,7 @@ async function getGroupNames(groupIds: object) {
   for(let uuid of groupIds) {
     const response = await apiFetch('/group?limit=1&ids[]=' + uuid);
     const jsonData = await response.json();
-    const groupName = jsonData.results[0].data.attributes.name;
+    const groupName = jsonData.data[0].attributes.name;
     groupMap.set(uuid, groupName);
   }
   return groupMap;
@@ -50,9 +50,9 @@ export async function getChapterList(uuid: string) {
   const chapterArray = [];
   const groupSet = new Set();
   for(let jsonData of jsonArray) {
-    for(let j=0; j<jsonData.results.length; j++) { // Iterate over all results returned from our fetch
+    for(let j=0; j<jsonData.data.length; j++) { // Iterate over all results returned from our fetch
       let groupId = "";
-      const relationships = jsonData.results[j].relationships;
+      const relationships = jsonData.data[j].relationships;
       for(let relationship of relationships) {
         if(relationship.type === "scanlation_group") {
           groupSet.add(relationship.id);
@@ -60,10 +60,10 @@ export async function getChapterList(uuid: string) {
         }
       }
 
-      const attributes = jsonData.results[j].data.attributes;
+      const attributes = jsonData.data[j].attributes;
       const chapterNumber = Number(attributes.chapter) === NaN ? 0 : Number(attributes.chapter);
       const chapterName = attributes.title === null ? "" : attributes.title;
-      const chapterId = jsonData.results[j].data.id;
+      const chapterId = jsonData.data[j].id;
 
       // chapterArray.push([chapterNumber, chapterName, groupId]);
       chapterArray.push({
@@ -113,8 +113,8 @@ export async function getCover(uuid: string) {
   }
 
   for(let jsonData of jsonArray) {
-    for(let j=0; j<jsonData.results.length; j++) { // Iterate over all results returned from our fetch
-      const attributes = jsonData.results[j].data.attributes;
+    for(let j=0; j<jsonData.data.length; j++) { // Iterate over all results returned from our fetch
+      const attributes = jsonData.data[j].attributes;
       const volume = Number(attributes.volume);
       if(volume !== NaN) {
         if(volume > tempVolume[0]) {
@@ -137,7 +137,7 @@ export async function getChapterImages(uuid: string) {
 
   response = await apiFetch('/chapter?limit=1&ids[]=' + uuid);
   jsonData = await response.json();
-  const attributes = jsonData.results[0].data.attributes;
+  const attributes = jsonData.data[0].attributes;
   const hash = attributes.hash;
   const filenames = attributes.data;
 

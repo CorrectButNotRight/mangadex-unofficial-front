@@ -30,7 +30,7 @@ export default function MangaOverview() {
   const [content, setContent] = useState("");
 
   useEffect(() => {
-    fetch(API_BASE_URL + '/manga/' + uuid)
+    apiFetch('/manga/' + uuid)
       .then(response => {
         return response.ok
              ? Promise.resolve(response.json())
