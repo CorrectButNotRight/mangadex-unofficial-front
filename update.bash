@@ -24,7 +24,7 @@ aleph init frontend
 
 
 cp -r $OLD/{components,lib,pages,style} $NEW
-CONTENT="$(cat $OLD/import_map_append.txt)"
+CONTENT="$(cat import_map_append.txt)"
 sed -i '/\"imports\":.*{/a \\n'"$(quoteSubst "$CONTENT")" $NEW/import_map.json
 
 rm -rf frontend-old

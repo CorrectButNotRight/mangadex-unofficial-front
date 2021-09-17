@@ -1,0 +1,2 @@
+    "react-banner": "https://esm.sh/react-banner@1.0.3",
+    "fetch-throttle": "https://esm.sh/fetch-throttle@0.1.0",
