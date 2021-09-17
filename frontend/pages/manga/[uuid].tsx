@@ -4,7 +4,7 @@ import MangaDescription from '~/components/manga-description.tsx'
 import MangaCover from '~/components/manga-cover.tsx'
 import MangaChapters from '~/components/manga-chapters.tsx'
 import { useParams } from '~/lib/useRouter.ts'
-import { API_BASE_URL } from '~/lib/constants.ts'
+import { apiFetch } from '~/lib/fetch.ts'
 
 // Generate contents of page from a successful fetch
 function generateSuccessContent(uuid: string) {

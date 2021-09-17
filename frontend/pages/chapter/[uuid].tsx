@@ -2,7 +2,7 @@ import React, { useState, useEffect } from 'react'
 import MangaBanner from '~/components/banner.tsx'
 import ChapterImages from '~/components/chapter-images.tsx'
 import { useParams } from '~/lib/useRouter.ts'
-import { API_BASE_URL } from '~/lib/constants.ts'
+import { apiFetch } from '~/lib/fetch.ts'
 
 // Generate contents of page from a successful fetch
 function generateSuccessContent(uuid: string) {
