@@ -43,7 +43,7 @@ export async function getChapterList(uuid: string) {
   }
   
   const jsonArray = await Promise.all(promiseArray);
-  if(jsonArray[0].results.length === 0) {
+  if(jsonArray[0].data.length === 0) {
     return Promise.reject("No chapters");
   }
 
