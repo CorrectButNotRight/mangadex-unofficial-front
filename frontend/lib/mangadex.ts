@@ -1,5 +1,6 @@
 import { FETCH_LIMIT , API_BASE_URL} from '~/lib/constants.ts'
 import { apiFetch, homeFetch } from '~/lib/fetch.ts'
+import { SortMode } from '~/lib/enums.ts'
 
 async function getGroupNames(groupIds: object) {
   const groupMap = new Map();
@@ -12,14 +13,41 @@ async function getGroupNames(groupIds: object) {
   return groupMap;
 }
 
-// getUpdateList(reqSize, offset) this function consumes 'request size' and 'offset' then returns the 'recent update' list
-// Int Int -> String[]
+//getSearchResults(offset, sortMode, searchBar, excMode, excTags, incMode, incTags, reqSize) This function consumes exclusion, inclusion, and display mode of the search and returns
+//                                                                                            the search result list
+// Int SortMode String String String[] String String[] Int -> String[]
 // Note: output example [{uuid}, manga name, {uuid}, manga name,...]
 //       offset goes up by 1 everytime, index at 0, defaults to 0
+//       excTags and incTags are arrays of strings of hashed tags
 // Assume: 0 < reqSize <= 100
 //         0 <= offset
-export async function getUpdateList(reqSize=20, offset=0) { // Note that we will need to add more parameters later to exclude results (ie. exclude tags (I see chinese I get cancer))
-  let response = await apiFetch("/manga?limit=" + reqSize + "&order[latestUploadedChapter]=desc&offset=" + (offset + 1));
+//         searchBar not sanitized
+export async function getSearchResults(offset=0, sortMode=SortMode.RelevanceDesc, searchBar="", excMode="OR", excTags=[], incMode="AND", incTags=[], reqSize=20) {
+
+  let uri = "/manga?limit=" + reqSize + "&offset=" + (offset + 1)
+  uri += "&includedTagsMode=" + incMode
+  uri += "&excludedTagsMode=" + excMode
+  if (sortMode == SortMode.Newest) {
+    uri += "&order[latestUploadedChapter]=desc"
+  } else if (sortMode == SortMode.Oldest) {
+    uri += "&order[latestUploadedChapter]=asc"
+  } else if (sortMode == SortMode.Relevancedesc) {
+    uri += "&order[relevance]=desc"
+  } else if (sortMode == SortMode.RelevanceAsc) {
+    uri += "&order[relevance]=asc"
+  } else if (sortMode == SortMode.FolloweAsc) {
+    uri += "&order[followedCount]=desc"
+  } else if (sortMode == SortMode.FolloweDesc) {
+    uri += "&order[followedCount]=asc"
+  }
+  for (let tag of excTags) {
+    uri += "&excludeTags[]=" + tag
+  }
+  for (let tag of incTags) {
+    uri += "&includeTags[]=" + tag
+  }
+  uri += "&title=" + searchBar
+  let response = await apiFetch(encodeURI(uri));
   let jsonData = await response.json();
   const updateArray = [];
   for (let i=0; i<((offset + 1)*reqSize); i+=1) {
@@ -28,6 +56,16 @@ export async function getUpdateList(reqSize=20, offset=0) { // Note that we will
     updateArray.push(data.attributes.title.en);
   }
   return updateArray;
+}
+
+// getUpdateList(offset, reqSize) this function consumes 'request size' and 'offset' then returns the 'recent update' list
+// Int Int String[] -> String[]
+// Note: output example [{uuid}, manga name, {uuid}, manga name,...]
+//       offset goes up by 1 everytime, index at 0, defaults to 0
+// Assume: 0 < reqSize <= 100
+//         0 <= offset
+export async function getUpdateList(offset=0, reqSize=20, excTags=[]) {
+  return getSearchResults(offset, SortMode.Newest, "", "OR", excTags, "AND", [], reqSize);
 }
 
 export async function getChapterList(uuid: string) {
