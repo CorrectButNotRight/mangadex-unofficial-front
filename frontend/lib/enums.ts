@@ -3,3 +3,14 @@ export enum FetchStatus {
   Success,
   Error
 }
+
+export enum SortMode {
+  NoSort,
+  Newest,
+  Oldest,
+  RelevanceAsc,
+  RelevanceDesc,
+  FolloweAsc,
+  FolloweDesc
+
+}
