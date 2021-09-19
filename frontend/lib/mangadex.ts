@@ -25,6 +25,7 @@ async function getGroupNames(groupIds: object) {
 export async function getSearchResults(offset=0, sortMode=SortMode.RelevanceDesc, searchBar="", excMode="OR", excTags=[], incMode="AND", incTags=[], reqSize=20) {
 
   let uri = "/manga?limit=" + reqSize + "&offset=" + (offset + 1)
+  uri += "&title=" + searchBar
   uri += "&includedTagsMode=" + incMode
   uri += "&excludedTagsMode=" + excMode
   if (sortMode == SortMode.Newest) {
@@ -46,15 +47,17 @@ export async function getSearchResults(offset=0, sortMode=SortMode.RelevanceDesc
   for (let tag of incTags) {
     uri += "&includeTags[]=" + tag
   }
-  uri += "&title=" + searchBar
   let response = await apiFetch(encodeURI(uri));
   let jsonData = await response.json();
   const updateArray = [];
   for (let i=0; i<((offset + 1)*reqSize); i+=1) {
-    const data = jsonData.data[i];
-    updateArray.push(data.id);
-    updateArray.push(data.attributes.title.en);
+    if (i + (offset + 1)*reqSize < jsonData.total) {
+      const data = jsonData.data[i];
+      updateArray.push(data.id);
+      updateArray.push(data.attributes.title.en);
+    }
   }
+  console.log(updateArray)
   return updateArray;
 }
 
