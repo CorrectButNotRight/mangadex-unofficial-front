@@ -24,7 +24,7 @@ async function getGroupNames(groupIds: object) {
 //         searchBar not sanitized
 export async function getSearchResults(offset=0, sortMode=SortMode.RelevanceDesc, searchBar="", excMode="OR", excTags=[], incMode="AND", incTags=[], reqSize=20) {
 
-  let uri = "/manga?limit=" + reqSize + "&offset=" + (offset + 1)
+  let uri = "/manga?limit=" + reqSize + "&offset=" + offset
   uri += "&title=" + searchBar
   uri += "&includedTagsMode=" + incMode
   uri += "&excludedTagsMode=" + excMode
