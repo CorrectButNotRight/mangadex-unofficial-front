@@ -51,7 +51,7 @@ export async function getSearchResults(offset=0, sortMode=SortMode.RelevanceDesc
   let jsonData = await response.json();
   const updateArray = [];
   for (let i=0; i<((offset + 1)*reqSize); i+=1) {
-    if (i + (offset + 1)*reqSize < jsonData.total) {
+    if (i + offset * reqSize < jsonData.data.length) {
       const data = jsonData.data[i];
       updateArray.push(data.id);
       updateArray.push(data.attributes.title.en);
