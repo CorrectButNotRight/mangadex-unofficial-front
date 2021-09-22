@@ -3,6 +3,10 @@
   <head>
     <title>Manga overview</title>
     <link rel="stylesheet" type="text/css" href="style.css"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <style>
+    #more {display: none;}
+    </style>
   </head>
   <body>
     <div class="App">
@@ -11,11 +15,26 @@
           <!-- Cover image -->
           <img class="cover-image" src="komicover.png"/>
         </div>
+        <div class="grid-info">
+          <!-- Description -->
+          <div>
+            <ul>
+              <li><p>Info</p></li>
+              <li><p>Info</p></li>
+              <li><p>Info</p></li>
+              <li><p>Info</p></li>
+              <li><p>Info</p></li>
+              <li><p>Info</p></li>
+              <li><p>Info</p></li>
+              <li><p>Info</p></li>
+            </ul>
+          </div>
+        </div>
         <div class="grid-description">
           <!-- Description -->
           <p>
             Komi-san is a beautiful and admirable girl that no one can take their
-            eyes off of. Almost the whole school sees her as the cold beauty that's
+            eyes off of.<span id="dots">...</span><span id="more"> Almost the whole school sees her as the cold beauty that's
             out of their league, but Tadano Hitohito knows the truth: she's just
             really bad at communicating with others. \r\n\r\nKomi-san, who wishes to
             fix this bad habit of hers, tries to improve it with the help of
@@ -28,23 +47,25 @@
             szkoła postrzega ją jako zimne piękno, które jest poza ich zasięgiem,
             ale Tadano Hitohito zna prawdę: młoda piękność po prostu źle komunikuje
             się z innymi. Komi-san, chce to zmienić, a ma jej w tym pomóc
-            Tadano.[/spoiler]
-          </p>
-        </div>
-        <div class="grid-chapters">
-          <!-- Chapter list -->
-          <ul>
-            <li>1 | Underdog Scans | Chapter One</li>
-            <li>2 | Underdog Scans | Chapter Two</li>
-            <li>3 | Underdog Scans | Chapter Three</li>
-            <li>4 | Underdog Scans | Chapter Four</li>
-            <li>5 | Underdog Scans | Chapter Five</li>
-            <li>6 | Underdog Scans | Chapter Six</li>
-            <li>7 | Underdog Scans | Chapter Seven</li>
-            <li>8 | Underdog Scans | Chapter Eight</li>
-            <li>9 | Underdog Scans | Chapter Nine</li>
-            <li>10 | Underdog Scans | Chapter Ten</li>
-          </ul>
+            Tadano.[/spoiler]</span></p>
+          <button onclick="myFunction()" id="myBtn">Read more</button>
+          <script>
+            function myFunction() {
+              var dots = document.getElementById("dots");
+              var moreText = document.getElementById("more");
+              var btnText = document.getElementById("myBtn");
+            
+              if (dots.style.display === "none") {
+                dots.style.display = "inline";
+                btnText.innerHTML = "Read more"; 
+                moreText.style.display = "none";
+              } else {
+                dots.style.display = "none";
+                btnText.innerHTML = "Read less"; 
+                moreText.style.display = "inline";
+              }
+            }
+            </script>
         </div>
       </div>
     </div>
