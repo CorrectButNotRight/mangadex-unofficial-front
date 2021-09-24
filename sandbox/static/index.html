@@ -3,6 +3,10 @@
   <head>
     <title>Manga overview</title>
     <link rel="stylesheet" type="text/css" href="style.css"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <style>
+      #more {display: none;}
+    </style>
   </head>
   <body>
     <div class="App">
@@ -11,25 +15,59 @@
           <!-- Cover image -->
           <img class="cover-image" src="komicover.png"/>
         </div>
+        <div class="grid-info">
+          <!-- Description -->
+          <div>
+            <ul>
+              <li><p>Info</p></li>
+              <li><p>Info</p></li>
+              <li><p>Info</p></li>
+              <li><p>Info</p></li>
+              <li><p>Info</p></li>
+              <li><p>Info</p></li>
+              <li><p>Info</p></li>
+              <li><p>Info</p></li>
+            </ul>
+          </div>
+        </div>
         <div class="grid-description">
           <!-- Description -->
           <p>
             Komi-san is a beautiful and admirable girl that no one can take their
-            eyes off of. Almost the whole school sees her as the cold beauty that's
-            out of their league, but Tadano Hitohito knows the truth: she's just
-            really bad at communicating with others. \r\n\r\nKomi-san, who wishes to
-            fix this bad habit of hers, tries to improve it with the help of
-            Tadano-kun by achieving her goal of having 100
-            friends.\r\n\r\n[b]Links:[/b]
-            [url=https://twitter.com/ooodaaaatooo]Author's
-            Twitter[/url]\r\n\r\nComi-san ha Comyusho Desu. is the official
-            romanization.\r\n\r\nPL\r\n\r\n[spoiler]Komi-san jest piękną i godną
-            podziwu dziewczyną, od której nikt nie może oderwać oczu. Prawie cała
-            szkoła postrzega ją jako zimne piękno, które jest poza ich zasięgiem,
-            ale Tadano Hitohito zna prawdę: młoda piękność po prostu źle komunikuje
-            się z innymi. Komi-san, chce to zmienić, a ma jej w tym pomóc
-            Tadano.[/spoiler]
+            eyes off of.<span id="dots">...</span><span id="more"> Almost the whole school sees her as the cold beauty that's
+              out of their league, but Tadano Hitohito knows the truth: she's just
+              really bad at communicating with others. \r\n\r\nKomi-san, who wishes to
+              fix this bad habit of hers, tries to improve it with the help of
+              Tadano-kun by achieving her goal of having 100
+              friends.\r\n\r\n[b]Links:[/b]
+              [url=https://twitter.com/ooodaaaatooo]Author's
+              Twitter[/url]\r\n\r\nComi-san ha Comyusho Desu. is the official
+              romanization.\r\n\r\nPL\r\n\r\n[spoiler]Komi-san jest piękną i godną
+              podziwu dziewczyną, od której nikt nie może oderwać oczu. Prawie cała
+              szkoła postrzega ją jako zimne piękno, które jest poza ich zasięgiem,
+              ale Tadano Hitohito zna prawdę: młoda piękność po prostu źle komunikuje
+              się z innymi. Komi-san, chce to zmienić, a ma jej w tym pomóc
+              Tadano.[/spoiler]
+            </span>
           </p>
+          <button onclick="myFunction()" id="myBtn">Read more</button>
+          <script>
+            function myFunction() {
+              var dots = document.getElementById("dots");
+              var moreText = document.getElementById("more");
+              var btnText = document.getElementById("myBtn");
+              
+              if (dots.style.display === "none") {
+                dots.style.display = "inline";
+                btnText.innerHTML = "Read more"; 
+                moreText.style.display = "none";
+              } else {
+                dots.style.display = "none";
+                btnText.innerHTML = "Read less"; 
+                moreText.style.display = "inline";
+              }
+            }
+          </script>
         </div>
       </div>
       <div class="grid-chapters">
@@ -58,5 +96,6 @@
         </ul>
       </div>
     </div>
-  </body>
+</div>
+</body>
 </html>
