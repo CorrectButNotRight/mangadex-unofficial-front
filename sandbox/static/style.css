@@ -92,11 +92,15 @@ body {
 .grid-chapters {
   /* grid-column: 1 / 4; */
   /* grid-row: 2 / 3; */
-  overflow: auto;
   grid-column: 1 / 3;
   /* height: 300px; */
   /* width: 700px; */
-  align-items: center;
+  /* align-items: center; */
+}
+
+.grid-chapters ul {
+  height: 5em;
+  overflow: auto;
 }
 
 .grid-info {
