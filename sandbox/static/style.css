@@ -70,7 +70,9 @@ body {
   /* grid-column: 1 / 4; */
   /* grid-row: 2 / 3; */
   overflow: auto;
-  height: 200px;
+  height: 300px;
+  width: 700px;
+  align-items: center;
 }
 
 .grid-info {
