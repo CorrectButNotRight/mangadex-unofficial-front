@@ -1,6 +1,8 @@
+#more {display: none;}
+
 div {
-  background-color: grey;
-  border: 15px solid green;
+  background-color: lightgrey;
+  border: 10px solid rgb(3, 151, 151);
 }
 
 ul {
