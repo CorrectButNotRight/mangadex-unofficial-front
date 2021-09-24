@@ -60,6 +60,7 @@ body {
 .grid-cover {
   /* flex: 1; */
   grid-column: 1 / 2;
+  grid-row: 1;
   /* margin-right: 2vw; */
 }
 
@@ -68,25 +69,28 @@ body {
 }
 
 .grid-description {
-  flex: 2;
-  height: 50vh;
-  width: 100%;
+  /* flex: 2; */
+  /* height: 50vh; */
+  /* width: 100%; */
   /* height: 200px; */
   /* width: 200px; */
-  overflow: auto;
+  grid-column: 1 / 3;
 }
 
 .grid-chapters {
   /* grid-column: 1 / 4; */
   /* grid-row: 2 / 3; */
   overflow: auto;
+  grid-column: 1 / 3;
   /* height: 300px; */
   /* width: 700px; */
   align-items: center;
 }
 
 .grid-info {
-  grid-column: 1 / 1;
+  /* grid-column: 1 / 1; */
+  grid-column: 2 / 3;
+  grid-row: 1;
   /* grid-row: 2 / 3; */
 }
 
