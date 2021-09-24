@@ -14,22 +14,22 @@
         </div>
         <div class="grid-info">
           <!-- Description -->
-          <ul>
-            <li><p>Info</p></li>
-            <li><p>Info</p></li>
-            <li><p>Info</p></li>
-            <li><p>Info</p></li>
-            <li><p>Info</p></li>
-            <li><p>Info</p></li>
-            <li><p>Info</p></li>
-            <li><p>Info</p></li>
-          </ul>
+            <ul>
+              <li><p>Info</p></li>
+              <li><p>Info</p></li>
+              <li><p>Info</p></li>
+              <li><p>Info</p></li>
+              <li><p>Info</p></li>
+              <li><p>Info</p></li>
+              <li><p>Info</p></li>
+              <li><p>Info</p></li>
+            </ul>
         </div>
         <div class="grid-description">
           <!-- Description -->
           <p>
-            Komi-san is a beautiful and admirable girl that no one can take their
-            eyes off of.<span id="dots">...</span><span id="more"> Almost the whole school sees her as the cold beauty that's
+            <span id = "pre">Komi-san is a beautiful and admirable girl that no one can take their
+            eyes off of.</span><span id="dots">...</span><span id="more"> Almost the whole school sees her as the cold beauty that's
               out of their league, but Tadano Hitohito knows the truth: she's just
               really bad at communicating with others. \r\n\r\nKomi-san, who wishes to
               fix this bad habit of hers, tries to improve it with the help of
@@ -48,6 +48,7 @@
           <button onclick="myFunction()" id="myBtn">Read more</button>
           <script>
             function myFunction() {
+              var sampleText = document.getElementById("pre");
               var dots = document.getElementById("dots");
               var moreText = document.getElementById("more");
               var btnText = document.getElementById("myBtn");
@@ -56,10 +57,12 @@
                 dots.style.display = "inline";
                 btnText.innerHTML = "Read more"; 
                 moreText.style.display = "none";
+                sampleText.style.opacity = 0.5
               } else {
                 dots.style.display = "none";
                 btnText.innerHTML = "Read less"; 
                 moreText.style.display = "inline";
+                sampleText.style.opacity = 1
               }
             }
           </script>
