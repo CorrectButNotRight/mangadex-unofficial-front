@@ -170,12 +170,19 @@ export async function getCover(uuid: string) {
 export async function getChapterImages(uuid: string) {
   let response = await homeFetch(uuid);
   let jsonData = await response.json();
+
+  // get hash from home fetch
+  const hash = jsonData.chapter.hash;
+  // get base url from home fetch
   const fileurl = jsonData.baseUrl;
+  
 
   response = await apiFetch('/chapter?limit=1&ids[]=' + uuid);
   jsonData = await response.json();
   const attributes = jsonData.data[0].attributes;
-  const hash = attributes.hash;
+  // const hash = attributes.hash;
+
+  //TODO figure out which field of attributes to use
   const filenames = attributes.data;
 
   const pathArray = [];
